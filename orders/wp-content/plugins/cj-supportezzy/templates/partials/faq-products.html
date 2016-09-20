@@ -1,0 +1,49 @@
+<div class="col-lg-10 col-lg-offset-3 col-md-12 col-md-offset-4">
+	<!-- main content -->
+    <div ng-if="main_wrap">
+        <h2 class="main-title">{{ page_title }}</h2>
+        <div ng-if="faqs" ng-repeat="faq in faqs | orderBy: ['order', 'order']:true">
+            <div ng-if="lang.faq_setup == 'faq-page'">
+                <a target="_blank" class="faq-title" href="{{faq.link}}" ng-bind-html="faq.title | trusted_html"></a>
+            </div>
+
+            <div ng-if="lang.faq_setup == 'app-page'">
+                <h3 class="faq-title" ng-click="isCollapsed = !isCollapsed">{{ faq.title }}</h3>
+                <div collapse="isCollapsed" class="faq-content" ng-bind-html="faq.content | trusted_html"></div>
+            </div>
+
+
+        </div>
+        <div ng-if="!faqs">
+            <p>
+                {{ faq_errors }}
+            </p>
+        </div>
+    </div>
+	<!-- main content -->
+
+    <span ng-if="!main_wrap" class="font-size-40">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </span>
+
+</div>
+
+<div ng-if="main_wrap" class="col-lg-3 col-md-3 sidebar-right select-none">
+    <div class="padding-15">
+        <h2>{{ lang.choose_product }}</h2>
+        <nav class="nav-tickets">
+            <ul>
+                <li ng-repeat="product in lang.products_array">
+                    <i class="fa fa-tag"></i>&nbsp;
+                    <a href="#/faqs/{{ product.id }}">{{ product.name }}</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

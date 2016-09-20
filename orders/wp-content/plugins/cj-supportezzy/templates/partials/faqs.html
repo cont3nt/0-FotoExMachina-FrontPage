@@ -1,0 +1,43 @@
+<div class="col-lg-13 col-lg-offset-3 col-md-12 col-md-offset-4">
+    <!-- main content -->
+    <div ng-if="main_wrap">
+        <h2 class="main-title">{{ lang.faqs_title }}</h2>
+
+        <div ng-if="faqs" class="row margin-20-top">
+            <div class="col-md-4" ng-repeat="faq in faqs">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><a href="#/faqs/{{ faq.product_slug }}" class="black block"><strong>{{ faq.product_title }}</strong><i class="fa fa-arrow-circle-o-right pull-right gray font-size-14"></i></a></div>
+                    <div class="panel-body">
+                        <ul class="faq-list hidden">
+                            <li ng-repeat="post in faq.posts">
+                                <a target="_blank" href="#/faqs/{{ faq.product_slug }}" class="gray">
+                                    {{ post.post_title }}
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="margin-0">
+                            <a href="#/faqs/{{ faq.product_slug }}">{{ lang.view_all_faqs }}</a>
+                        </p>
+                    </div>
+                </div><!-- panel -->
+            </div><!-- faqs -->
+        </div><!-- row -->
+
+        <p ng-if="!faqs">{{ faq_errors }}</p>
+
+    </div>
+    <!-- main content -->
+
+
+
+    <span ng-if="!main_wrap" class="font-size-40">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </span>
+
+</div>

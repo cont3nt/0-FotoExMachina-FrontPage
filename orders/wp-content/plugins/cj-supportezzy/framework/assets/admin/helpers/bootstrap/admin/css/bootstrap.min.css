@@ -1,0 +1,2435 @@
+#cj-admin-content fieldset,
+.cj-admin-content fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+#cj-admin-content legend,
+.cj-admin-content legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#cj-admin-content label,
+.cj-admin-content label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+#cj-admin-content input[type="search"],
+.cj-admin-content input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cj-admin-content input[type="radio"],
+.cj-admin-content input[type="radio"],
+#cj-admin-content input[type="checkbox"],
+.cj-admin-content input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+#cj-admin-content input[type="file"],
+.cj-admin-content input[type="file"] {
+  display: block;
+}
+#cj-admin-content input[type="range"],
+.cj-admin-content input[type="range"] {
+  display: block;
+  width: 100%;
+}
+#cj-admin-content select[multiple],
+.cj-admin-content select[multiple],
+#cj-admin-content select[size],
+.cj-admin-content select[size] {
+  height: auto;
+}
+#cj-admin-content input[type="file"]:focus,
+.cj-admin-content input[type="file"]:focus,
+#cj-admin-content input[type="radio"]:focus,
+.cj-admin-content input[type="radio"]:focus,
+#cj-admin-content input[type="checkbox"]:focus,
+.cj-admin-content input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#cj-admin-content output,
+.cj-admin-content output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+}
+#cj-admin-content .form-control,
+.cj-admin-content .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#cj-admin-content .form-control:focus,
+.cj-admin-content .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+#cj-admin-content .form-control::-moz-placeholder,
+.cj-admin-content .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+#cj-admin-content .form-control:-ms-input-placeholder,
+.cj-admin-content .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+#cj-admin-content .form-control::-webkit-input-placeholder,
+.cj-admin-content .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+#cj-admin-content .form-control[disabled],
+.cj-admin-content .form-control[disabled],
+#cj-admin-content .form-control[readonly],
+.cj-admin-content .form-control[readonly],
+fieldset[disabled] #cj-admin-content .form-control,
+fieldset[disabled] .cj-admin-content .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+textarea#cj-admin-content .form-control,
+textarea.cj-admin-content .form-control {
+  height: auto;
+}
+#cj-admin-content input[type="search"],
+.cj-admin-content input[type="search"] {
+  -webkit-appearance: none;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #cj-admin-content input[type="date"],
+  .cj-admin-content input[type="date"],
+  #cj-admin-content input[type="time"],
+  .cj-admin-content input[type="time"],
+  #cj-admin-content input[type="datetime-local"],
+  .cj-admin-content input[type="datetime-local"],
+  #cj-admin-content input[type="month"],
+  .cj-admin-content input[type="month"] {
+    line-height: 34px;
+  }
+  #cj-admin-content input[type="date"].input-sm,
+  .cj-admin-content input[type="date"].input-sm,
+  #cj-admin-content input[type="time"].input-sm,
+  .cj-admin-content input[type="time"].input-sm,
+  #cj-admin-content input[type="datetime-local"].input-sm,
+  .cj-admin-content input[type="datetime-local"].input-sm,
+  #cj-admin-content input[type="month"].input-sm,
+  .cj-admin-content input[type="month"].input-sm {
+    line-height: 30px;
+  }
+  #cj-admin-content input[type="date"].input-lg,
+  .cj-admin-content input[type="date"].input-lg,
+  #cj-admin-content input[type="time"].input-lg,
+  .cj-admin-content input[type="time"].input-lg,
+  #cj-admin-content input[type="datetime-local"].input-lg,
+  .cj-admin-content input[type="datetime-local"].input-lg,
+  #cj-admin-content input[type="month"].input-lg,
+  .cj-admin-content input[type="month"].input-lg {
+    line-height: 46px;
+  }
+}
+#cj-admin-content .form-group,
+.cj-admin-content .form-group {
+  margin-bottom: 15px;
+}
+#cj-admin-content .radio,
+.cj-admin-content .radio,
+#cj-admin-content .checkbox,
+.cj-admin-content .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#cj-admin-content .radio label,
+.cj-admin-content .radio label,
+#cj-admin-content .checkbox label,
+.cj-admin-content .checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+#cj-admin-content .radio input[type="radio"],
+.cj-admin-content .radio input[type="radio"],
+#cj-admin-content .radio-inline input[type="radio"],
+.cj-admin-content .radio-inline input[type="radio"],
+#cj-admin-content .checkbox input[type="checkbox"],
+.cj-admin-content .checkbox input[type="checkbox"],
+#cj-admin-content .checkbox-inline input[type="checkbox"],
+.cj-admin-content .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+#cj-admin-content .radio + .radio,
+.cj-admin-content .radio + .radio,
+#cj-admin-content .checkbox + .checkbox,
+.cj-admin-content .checkbox + .checkbox {
+  margin-top: -5px;
+}
+#cj-admin-content .radio-inline,
+.cj-admin-content .radio-inline,
+#cj-admin-content .checkbox-inline,
+.cj-admin-content .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+#cj-admin-content .radio-inline + .radio-inline,
+.cj-admin-content .radio-inline + .radio-inline,
+#cj-admin-content .checkbox-inline + .checkbox-inline,
+.cj-admin-content .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+#cj-admin-content input[type="radio"][disabled],
+.cj-admin-content input[type="radio"][disabled],
+#cj-admin-content input[type="checkbox"][disabled],
+.cj-admin-content input[type="checkbox"][disabled],
+#cj-admin-content input[type="radio"].disabled,
+.cj-admin-content input[type="radio"].disabled,
+#cj-admin-content input[type="checkbox"].disabled,
+.cj-admin-content input[type="checkbox"].disabled,
+fieldset[disabled] #cj-admin-content input[type="radio"],
+fieldset[disabled] .cj-admin-content input[type="radio"],
+fieldset[disabled] #cj-admin-content input[type="checkbox"],
+fieldset[disabled] .cj-admin-content input[type="checkbox"] {
+  cursor: not-allowed;
+}
+#cj-admin-content .radio-inline.disabled,
+.cj-admin-content .radio-inline.disabled,
+#cj-admin-content .checkbox-inline.disabled,
+.cj-admin-content .checkbox-inline.disabled,
+fieldset[disabled] #cj-admin-content .radio-inline,
+fieldset[disabled] .cj-admin-content .radio-inline,
+fieldset[disabled] #cj-admin-content .checkbox-inline,
+fieldset[disabled] .cj-admin-content .checkbox-inline {
+  cursor: not-allowed;
+}
+#cj-admin-content .radio.disabled label,
+.cj-admin-content .radio.disabled label,
+#cj-admin-content .checkbox.disabled label,
+.cj-admin-content .checkbox.disabled label,
+fieldset[disabled] #cj-admin-content .radio label,
+fieldset[disabled] .cj-admin-content .radio label,
+fieldset[disabled] #cj-admin-content .checkbox label,
+fieldset[disabled] .cj-admin-content .checkbox label {
+  cursor: not-allowed;
+}
+#cj-admin-content .form-control-static,
+.cj-admin-content .form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+#cj-admin-content .form-control-static.input-lg,
+.cj-admin-content .form-control-static.input-lg,
+#cj-admin-content .form-control-static.input-sm,
+.cj-admin-content .form-control-static.input-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+#cj-admin-content .input-sm,
+.cj-admin-content .input-sm,
+#cj-admin-content .form-group-sm .form-control,
+.cj-admin-content .form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0px;
+}
+select#cj-admin-content .input-sm,
+select.cj-admin-content .input-sm,
+select#cj-admin-content .form-group-sm .form-control,
+select.cj-admin-content .form-group-sm .form-control {
+  height: 30px;
+  line-height: 30px;
+}
+textarea#cj-admin-content .input-sm,
+textarea.cj-admin-content .input-sm,
+textarea#cj-admin-content .form-group-sm .form-control,
+textarea.cj-admin-content .form-group-sm .form-control,
+select[multiple]#cj-admin-content .input-sm,
+select[multiple].cj-admin-content .input-sm,
+select[multiple]#cj-admin-content .form-group-sm .form-control,
+select[multiple].cj-admin-content .form-group-sm .form-control {
+  height: auto;
+}
+#cj-admin-content .input-lg,
+.cj-admin-content .input-lg,
+#cj-admin-content .form-group-lg .form-control,
+.cj-admin-content .form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 0px;
+}
+select#cj-admin-content .input-lg,
+select.cj-admin-content .input-lg,
+select#cj-admin-content .form-group-lg .form-control,
+select.cj-admin-content .form-group-lg .form-control {
+  height: 46px;
+  line-height: 46px;
+}
+textarea#cj-admin-content .input-lg,
+textarea.cj-admin-content .input-lg,
+textarea#cj-admin-content .form-group-lg .form-control,
+textarea.cj-admin-content .form-group-lg .form-control,
+select[multiple]#cj-admin-content .input-lg,
+select[multiple].cj-admin-content .input-lg,
+select[multiple]#cj-admin-content .form-group-lg .form-control,
+select[multiple].cj-admin-content .form-group-lg .form-control {
+  height: auto;
+}
+#cj-admin-content .has-feedback,
+.cj-admin-content .has-feedback {
+  position: relative;
+}
+#cj-admin-content .has-feedback .form-control,
+.cj-admin-content .has-feedback .form-control {
+  padding-right: 42.5px;
+}
+#cj-admin-content .form-control-feedback,
+.cj-admin-content .form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+#cj-admin-content .input-lg + .form-control-feedback,
+.cj-admin-content .input-lg + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+}
+#cj-admin-content .input-sm + .form-control-feedback,
+.cj-admin-content .input-sm + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+#cj-admin-content .has-success .help-block,
+.cj-admin-content .has-success .help-block,
+#cj-admin-content .has-success .control-label,
+.cj-admin-content .has-success .control-label,
+#cj-admin-content .has-success .radio,
+.cj-admin-content .has-success .radio,
+#cj-admin-content .has-success .checkbox,
+.cj-admin-content .has-success .checkbox,
+#cj-admin-content .has-success .radio-inline,
+.cj-admin-content .has-success .radio-inline,
+#cj-admin-content .has-success .checkbox-inline,
+.cj-admin-content .has-success .checkbox-inline,
+#cj-admin-content .has-success.radio label,
+.cj-admin-content .has-success.radio label,
+#cj-admin-content .has-success.checkbox label,
+.cj-admin-content .has-success.checkbox label,
+#cj-admin-content .has-success.radio-inline label,
+.cj-admin-content .has-success.radio-inline label,
+#cj-admin-content .has-success.checkbox-inline label,
+.cj-admin-content .has-success.checkbox-inline label {
+  color: #3c763d;
+}
+#cj-admin-content .has-success .form-control,
+.cj-admin-content .has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#cj-admin-content .has-success .form-control:focus,
+.cj-admin-content .has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+#cj-admin-content .has-success .input-group-addon,
+.cj-admin-content .has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8;
+}
+#cj-admin-content .has-success .form-control-feedback,
+.cj-admin-content .has-success .form-control-feedback {
+  color: #3c763d;
+}
+#cj-admin-content .has-warning .help-block,
+.cj-admin-content .has-warning .help-block,
+#cj-admin-content .has-warning .control-label,
+.cj-admin-content .has-warning .control-label,
+#cj-admin-content .has-warning .radio,
+.cj-admin-content .has-warning .radio,
+#cj-admin-content .has-warning .checkbox,
+.cj-admin-content .has-warning .checkbox,
+#cj-admin-content .has-warning .radio-inline,
+.cj-admin-content .has-warning .radio-inline,
+#cj-admin-content .has-warning .checkbox-inline,
+.cj-admin-content .has-warning .checkbox-inline,
+#cj-admin-content .has-warning.radio label,
+.cj-admin-content .has-warning.radio label,
+#cj-admin-content .has-warning.checkbox label,
+.cj-admin-content .has-warning.checkbox label,
+#cj-admin-content .has-warning.radio-inline label,
+.cj-admin-content .has-warning.radio-inline label,
+#cj-admin-content .has-warning.checkbox-inline label,
+.cj-admin-content .has-warning.checkbox-inline label {
+  color: #8a6d3b;
+}
+#cj-admin-content .has-warning .form-control,
+.cj-admin-content .has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#cj-admin-content .has-warning .form-control:focus,
+.cj-admin-content .has-warning .form-control:focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+#cj-admin-content .has-warning .input-group-addon,
+.cj-admin-content .has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+#cj-admin-content .has-warning .form-control-feedback,
+.cj-admin-content .has-warning .form-control-feedback {
+  color: #8a6d3b;
+}
+#cj-admin-content .has-error .help-block,
+.cj-admin-content .has-error .help-block,
+#cj-admin-content .has-error .control-label,
+.cj-admin-content .has-error .control-label,
+#cj-admin-content .has-error .radio,
+.cj-admin-content .has-error .radio,
+#cj-admin-content .has-error .checkbox,
+.cj-admin-content .has-error .checkbox,
+#cj-admin-content .has-error .radio-inline,
+.cj-admin-content .has-error .radio-inline,
+#cj-admin-content .has-error .checkbox-inline,
+.cj-admin-content .has-error .checkbox-inline,
+#cj-admin-content .has-error.radio label,
+.cj-admin-content .has-error.radio label,
+#cj-admin-content .has-error.checkbox label,
+.cj-admin-content .has-error.checkbox label,
+#cj-admin-content .has-error.radio-inline label,
+.cj-admin-content .has-error.radio-inline label,
+#cj-admin-content .has-error.checkbox-inline label,
+.cj-admin-content .has-error.checkbox-inline label {
+  color: #a94442;
+}
+#cj-admin-content .has-error .form-control,
+.cj-admin-content .has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#cj-admin-content .has-error .form-control:focus,
+.cj-admin-content .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+#cj-admin-content .has-error .input-group-addon,
+.cj-admin-content .has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede;
+}
+#cj-admin-content .has-error .form-control-feedback,
+.cj-admin-content .has-error .form-control-feedback {
+  color: #a94442;
+}
+#cj-admin-content .has-feedback label ~ .form-control-feedback,
+.cj-admin-content .has-feedback label ~ .form-control-feedback {
+  top: 25px;
+}
+#cj-admin-content .has-feedback label.sr-only ~ .form-control-feedback,
+.cj-admin-content .has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+#cj-admin-content .help-block,
+.cj-admin-content .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  #cj-admin-content .form-inline .form-group,
+  .cj-admin-content .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #cj-admin-content .form-inline .form-control,
+  .cj-admin-content .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  #cj-admin-content .form-inline .form-control-static,
+  .cj-admin-content .form-inline .form-control-static {
+    display: inline-block;
+  }
+  #cj-admin-content .form-inline .input-group,
+  .cj-admin-content .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  #cj-admin-content .form-inline .input-group .input-group-addon,
+  .cj-admin-content .form-inline .input-group .input-group-addon,
+  #cj-admin-content .form-inline .input-group .input-group-btn,
+  .cj-admin-content .form-inline .input-group .input-group-btn,
+  #cj-admin-content .form-inline .input-group .form-control,
+  .cj-admin-content .form-inline .input-group .form-control {
+    width: auto;
+  }
+  #cj-admin-content .form-inline .input-group > .form-control,
+  .cj-admin-content .form-inline .input-group > .form-control {
+    width: 100%;
+  }
+  #cj-admin-content .form-inline .control-label,
+  .cj-admin-content .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #cj-admin-content .form-inline .radio,
+  .cj-admin-content .form-inline .radio,
+  #cj-admin-content .form-inline .checkbox,
+  .cj-admin-content .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #cj-admin-content .form-inline .radio label,
+  .cj-admin-content .form-inline .radio label,
+  #cj-admin-content .form-inline .checkbox label,
+  .cj-admin-content .form-inline .checkbox label {
+    padding-left: 0;
+  }
+  #cj-admin-content .form-inline .radio input[type="radio"],
+  .cj-admin-content .form-inline .radio input[type="radio"],
+  #cj-admin-content .form-inline .checkbox input[type="checkbox"],
+  .cj-admin-content .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  #cj-admin-content .form-inline .has-feedback .form-control-feedback,
+  .cj-admin-content .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+#cj-admin-content .form-horizontal .radio,
+.cj-admin-content .form-horizontal .radio,
+#cj-admin-content .form-horizontal .checkbox,
+.cj-admin-content .form-horizontal .checkbox,
+#cj-admin-content .form-horizontal .radio-inline,
+.cj-admin-content .form-horizontal .radio-inline,
+#cj-admin-content .form-horizontal .checkbox-inline,
+.cj-admin-content .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+#cj-admin-content .form-horizontal .radio,
+.cj-admin-content .form-horizontal .radio,
+#cj-admin-content .form-horizontal .checkbox,
+.cj-admin-content .form-horizontal .checkbox {
+  min-height: 27px;
+}
+#cj-admin-content .form-horizontal .form-group,
+.cj-admin-content .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  #cj-admin-content .form-horizontal .control-label,
+  .cj-admin-content .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+#cj-admin-content .form-horizontal .has-feedback .form-control-feedback,
+.cj-admin-content .form-horizontal .has-feedback .form-control-feedback {
+  right: 15px;
+}
+@media (min-width: 768px) {
+  #cj-admin-content .form-horizontal .form-group-lg .control-label,
+  .cj-admin-content .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.3px;
+  }
+}
+@media (min-width: 768px) {
+  #cj-admin-content .form-horizontal .form-group-sm .control-label,
+  .cj-admin-content .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+  }
+}
+#cj-admin-content .btn,
+.cj-admin-content .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#cj-admin-content .btn:focus,
+.cj-admin-content .btn:focus,
+#cj-admin-content .btn:active:focus,
+.cj-admin-content .btn:active:focus,
+#cj-admin-content .btn.active:focus,
+.cj-admin-content .btn.active:focus,
+#cj-admin-content .btn.focus,
+.cj-admin-content .btn.focus,
+#cj-admin-content .btn:active.focus,
+.cj-admin-content .btn:active.focus,
+#cj-admin-content .btn.active.focus,
+.cj-admin-content .btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#cj-admin-content .btn:hover,
+.cj-admin-content .btn:hover,
+#cj-admin-content .btn:focus,
+.cj-admin-content .btn:focus,
+#cj-admin-content .btn.focus,
+.cj-admin-content .btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+#cj-admin-content .btn:active,
+.cj-admin-content .btn:active,
+#cj-admin-content .btn.active,
+.cj-admin-content .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#cj-admin-content .btn.disabled,
+.cj-admin-content .btn.disabled,
+#cj-admin-content .btn[disabled],
+.cj-admin-content .btn[disabled],
+fieldset[disabled] #cj-admin-content .btn,
+fieldset[disabled] .cj-admin-content .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#cj-admin-content .btn-default,
+.cj-admin-content .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#cj-admin-content .btn-default:hover,
+.cj-admin-content .btn-default:hover,
+#cj-admin-content .btn-default:focus,
+.cj-admin-content .btn-default:focus,
+#cj-admin-content .btn-default.focus,
+.cj-admin-content .btn-default.focus,
+#cj-admin-content .btn-default:active,
+.cj-admin-content .btn-default:active,
+#cj-admin-content .btn-default.active,
+.cj-admin-content .btn-default.active,
+.open > .dropdown-toggle#cj-admin-content .btn-default,
+.open > .dropdown-toggle.cj-admin-content .btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+#cj-admin-content .btn-default:active,
+.cj-admin-content .btn-default:active,
+#cj-admin-content .btn-default.active,
+.cj-admin-content .btn-default.active,
+.open > .dropdown-toggle#cj-admin-content .btn-default,
+.open > .dropdown-toggle.cj-admin-content .btn-default {
+  background-image: none;
+}
+#cj-admin-content .btn-default.disabled,
+.cj-admin-content .btn-default.disabled,
+#cj-admin-content .btn-default[disabled],
+.cj-admin-content .btn-default[disabled],
+fieldset[disabled] #cj-admin-content .btn-default,
+fieldset[disabled] .cj-admin-content .btn-default,
+#cj-admin-content .btn-default.disabled:hover,
+.cj-admin-content .btn-default.disabled:hover,
+#cj-admin-content .btn-default[disabled]:hover,
+.cj-admin-content .btn-default[disabled]:hover,
+fieldset[disabled] #cj-admin-content .btn-default:hover,
+fieldset[disabled] .cj-admin-content .btn-default:hover,
+#cj-admin-content .btn-default.disabled:focus,
+.cj-admin-content .btn-default.disabled:focus,
+#cj-admin-content .btn-default[disabled]:focus,
+.cj-admin-content .btn-default[disabled]:focus,
+fieldset[disabled] #cj-admin-content .btn-default:focus,
+fieldset[disabled] .cj-admin-content .btn-default:focus,
+#cj-admin-content .btn-default.disabled.focus,
+.cj-admin-content .btn-default.disabled.focus,
+#cj-admin-content .btn-default[disabled].focus,
+.cj-admin-content .btn-default[disabled].focus,
+fieldset[disabled] #cj-admin-content .btn-default.focus,
+fieldset[disabled] .cj-admin-content .btn-default.focus,
+#cj-admin-content .btn-default.disabled:active,
+.cj-admin-content .btn-default.disabled:active,
+#cj-admin-content .btn-default[disabled]:active,
+.cj-admin-content .btn-default[disabled]:active,
+fieldset[disabled] #cj-admin-content .btn-default:active,
+fieldset[disabled] .cj-admin-content .btn-default:active,
+#cj-admin-content .btn-default.disabled.active,
+.cj-admin-content .btn-default.disabled.active,
+#cj-admin-content .btn-default[disabled].active,
+.cj-admin-content .btn-default[disabled].active,
+fieldset[disabled] #cj-admin-content .btn-default.active,
+fieldset[disabled] .cj-admin-content .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#cj-admin-content .btn-default .badge,
+.cj-admin-content .btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+#cj-admin-content .btn-primary,
+.cj-admin-content .btn-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+#cj-admin-content .btn-primary:hover,
+.cj-admin-content .btn-primary:hover,
+#cj-admin-content .btn-primary:focus,
+.cj-admin-content .btn-primary:focus,
+#cj-admin-content .btn-primary.focus,
+.cj-admin-content .btn-primary.focus,
+#cj-admin-content .btn-primary:active,
+.cj-admin-content .btn-primary:active,
+#cj-admin-content .btn-primary.active,
+.cj-admin-content .btn-primary.active,
+.open > .dropdown-toggle#cj-admin-content .btn-primary,
+.open > .dropdown-toggle.cj-admin-content .btn-primary {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+#cj-admin-content .btn-primary:active,
+.cj-admin-content .btn-primary:active,
+#cj-admin-content .btn-primary.active,
+.cj-admin-content .btn-primary.active,
+.open > .dropdown-toggle#cj-admin-content .btn-primary,
+.open > .dropdown-toggle.cj-admin-content .btn-primary {
+  background-image: none;
+}
+#cj-admin-content .btn-primary.disabled,
+.cj-admin-content .btn-primary.disabled,
+#cj-admin-content .btn-primary[disabled],
+.cj-admin-content .btn-primary[disabled],
+fieldset[disabled] #cj-admin-content .btn-primary,
+fieldset[disabled] .cj-admin-content .btn-primary,
+#cj-admin-content .btn-primary.disabled:hover,
+.cj-admin-content .btn-primary.disabled:hover,
+#cj-admin-content .btn-primary[disabled]:hover,
+.cj-admin-content .btn-primary[disabled]:hover,
+fieldset[disabled] #cj-admin-content .btn-primary:hover,
+fieldset[disabled] .cj-admin-content .btn-primary:hover,
+#cj-admin-content .btn-primary.disabled:focus,
+.cj-admin-content .btn-primary.disabled:focus,
+#cj-admin-content .btn-primary[disabled]:focus,
+.cj-admin-content .btn-primary[disabled]:focus,
+fieldset[disabled] #cj-admin-content .btn-primary:focus,
+fieldset[disabled] .cj-admin-content .btn-primary:focus,
+#cj-admin-content .btn-primary.disabled.focus,
+.cj-admin-content .btn-primary.disabled.focus,
+#cj-admin-content .btn-primary[disabled].focus,
+.cj-admin-content .btn-primary[disabled].focus,
+fieldset[disabled] #cj-admin-content .btn-primary.focus,
+fieldset[disabled] .cj-admin-content .btn-primary.focus,
+#cj-admin-content .btn-primary.disabled:active,
+.cj-admin-content .btn-primary.disabled:active,
+#cj-admin-content .btn-primary[disabled]:active,
+.cj-admin-content .btn-primary[disabled]:active,
+fieldset[disabled] #cj-admin-content .btn-primary:active,
+fieldset[disabled] .cj-admin-content .btn-primary:active,
+#cj-admin-content .btn-primary.disabled.active,
+.cj-admin-content .btn-primary.disabled.active,
+#cj-admin-content .btn-primary[disabled].active,
+.cj-admin-content .btn-primary[disabled].active,
+fieldset[disabled] #cj-admin-content .btn-primary.active,
+fieldset[disabled] .cj-admin-content .btn-primary.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+#cj-admin-content .btn-primary .badge,
+.cj-admin-content .btn-primary .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+#cj-admin-content .btn-success,
+.cj-admin-content .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#cj-admin-content .btn-success:hover,
+.cj-admin-content .btn-success:hover,
+#cj-admin-content .btn-success:focus,
+.cj-admin-content .btn-success:focus,
+#cj-admin-content .btn-success.focus,
+.cj-admin-content .btn-success.focus,
+#cj-admin-content .btn-success:active,
+.cj-admin-content .btn-success:active,
+#cj-admin-content .btn-success.active,
+.cj-admin-content .btn-success.active,
+.open > .dropdown-toggle#cj-admin-content .btn-success,
+.open > .dropdown-toggle.cj-admin-content .btn-success {
+  color: #ffffff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+#cj-admin-content .btn-success:active,
+.cj-admin-content .btn-success:active,
+#cj-admin-content .btn-success.active,
+.cj-admin-content .btn-success.active,
+.open > .dropdown-toggle#cj-admin-content .btn-success,
+.open > .dropdown-toggle.cj-admin-content .btn-success {
+  background-image: none;
+}
+#cj-admin-content .btn-success.disabled,
+.cj-admin-content .btn-success.disabled,
+#cj-admin-content .btn-success[disabled],
+.cj-admin-content .btn-success[disabled],
+fieldset[disabled] #cj-admin-content .btn-success,
+fieldset[disabled] .cj-admin-content .btn-success,
+#cj-admin-content .btn-success.disabled:hover,
+.cj-admin-content .btn-success.disabled:hover,
+#cj-admin-content .btn-success[disabled]:hover,
+.cj-admin-content .btn-success[disabled]:hover,
+fieldset[disabled] #cj-admin-content .btn-success:hover,
+fieldset[disabled] .cj-admin-content .btn-success:hover,
+#cj-admin-content .btn-success.disabled:focus,
+.cj-admin-content .btn-success.disabled:focus,
+#cj-admin-content .btn-success[disabled]:focus,
+.cj-admin-content .btn-success[disabled]:focus,
+fieldset[disabled] #cj-admin-content .btn-success:focus,
+fieldset[disabled] .cj-admin-content .btn-success:focus,
+#cj-admin-content .btn-success.disabled.focus,
+.cj-admin-content .btn-success.disabled.focus,
+#cj-admin-content .btn-success[disabled].focus,
+.cj-admin-content .btn-success[disabled].focus,
+fieldset[disabled] #cj-admin-content .btn-success.focus,
+fieldset[disabled] .cj-admin-content .btn-success.focus,
+#cj-admin-content .btn-success.disabled:active,
+.cj-admin-content .btn-success.disabled:active,
+#cj-admin-content .btn-success[disabled]:active,
+.cj-admin-content .btn-success[disabled]:active,
+fieldset[disabled] #cj-admin-content .btn-success:active,
+fieldset[disabled] .cj-admin-content .btn-success:active,
+#cj-admin-content .btn-success.disabled.active,
+.cj-admin-content .btn-success.disabled.active,
+#cj-admin-content .btn-success[disabled].active,
+.cj-admin-content .btn-success[disabled].active,
+fieldset[disabled] #cj-admin-content .btn-success.active,
+fieldset[disabled] .cj-admin-content .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#cj-admin-content .btn-success .badge,
+.cj-admin-content .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+#cj-admin-content .btn-info,
+.cj-admin-content .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#cj-admin-content .btn-info:hover,
+.cj-admin-content .btn-info:hover,
+#cj-admin-content .btn-info:focus,
+.cj-admin-content .btn-info:focus,
+#cj-admin-content .btn-info.focus,
+.cj-admin-content .btn-info.focus,
+#cj-admin-content .btn-info:active,
+.cj-admin-content .btn-info:active,
+#cj-admin-content .btn-info.active,
+.cj-admin-content .btn-info.active,
+.open > .dropdown-toggle#cj-admin-content .btn-info,
+.open > .dropdown-toggle.cj-admin-content .btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+#cj-admin-content .btn-info:active,
+.cj-admin-content .btn-info:active,
+#cj-admin-content .btn-info.active,
+.cj-admin-content .btn-info.active,
+.open > .dropdown-toggle#cj-admin-content .btn-info,
+.open > .dropdown-toggle.cj-admin-content .btn-info {
+  background-image: none;
+}
+#cj-admin-content .btn-info.disabled,
+.cj-admin-content .btn-info.disabled,
+#cj-admin-content .btn-info[disabled],
+.cj-admin-content .btn-info[disabled],
+fieldset[disabled] #cj-admin-content .btn-info,
+fieldset[disabled] .cj-admin-content .btn-info,
+#cj-admin-content .btn-info.disabled:hover,
+.cj-admin-content .btn-info.disabled:hover,
+#cj-admin-content .btn-info[disabled]:hover,
+.cj-admin-content .btn-info[disabled]:hover,
+fieldset[disabled] #cj-admin-content .btn-info:hover,
+fieldset[disabled] .cj-admin-content .btn-info:hover,
+#cj-admin-content .btn-info.disabled:focus,
+.cj-admin-content .btn-info.disabled:focus,
+#cj-admin-content .btn-info[disabled]:focus,
+.cj-admin-content .btn-info[disabled]:focus,
+fieldset[disabled] #cj-admin-content .btn-info:focus,
+fieldset[disabled] .cj-admin-content .btn-info:focus,
+#cj-admin-content .btn-info.disabled.focus,
+.cj-admin-content .btn-info.disabled.focus,
+#cj-admin-content .btn-info[disabled].focus,
+.cj-admin-content .btn-info[disabled].focus,
+fieldset[disabled] #cj-admin-content .btn-info.focus,
+fieldset[disabled] .cj-admin-content .btn-info.focus,
+#cj-admin-content .btn-info.disabled:active,
+.cj-admin-content .btn-info.disabled:active,
+#cj-admin-content .btn-info[disabled]:active,
+.cj-admin-content .btn-info[disabled]:active,
+fieldset[disabled] #cj-admin-content .btn-info:active,
+fieldset[disabled] .cj-admin-content .btn-info:active,
+#cj-admin-content .btn-info.disabled.active,
+.cj-admin-content .btn-info.disabled.active,
+#cj-admin-content .btn-info[disabled].active,
+.cj-admin-content .btn-info[disabled].active,
+fieldset[disabled] #cj-admin-content .btn-info.active,
+fieldset[disabled] .cj-admin-content .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#cj-admin-content .btn-info .badge,
+.cj-admin-content .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+#cj-admin-content .btn-warning,
+.cj-admin-content .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#cj-admin-content .btn-warning:hover,
+.cj-admin-content .btn-warning:hover,
+#cj-admin-content .btn-warning:focus,
+.cj-admin-content .btn-warning:focus,
+#cj-admin-content .btn-warning.focus,
+.cj-admin-content .btn-warning.focus,
+#cj-admin-content .btn-warning:active,
+.cj-admin-content .btn-warning:active,
+#cj-admin-content .btn-warning.active,
+.cj-admin-content .btn-warning.active,
+.open > .dropdown-toggle#cj-admin-content .btn-warning,
+.open > .dropdown-toggle.cj-admin-content .btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+#cj-admin-content .btn-warning:active,
+.cj-admin-content .btn-warning:active,
+#cj-admin-content .btn-warning.active,
+.cj-admin-content .btn-warning.active,
+.open > .dropdown-toggle#cj-admin-content .btn-warning,
+.open > .dropdown-toggle.cj-admin-content .btn-warning {
+  background-image: none;
+}
+#cj-admin-content .btn-warning.disabled,
+.cj-admin-content .btn-warning.disabled,
+#cj-admin-content .btn-warning[disabled],
+.cj-admin-content .btn-warning[disabled],
+fieldset[disabled] #cj-admin-content .btn-warning,
+fieldset[disabled] .cj-admin-content .btn-warning,
+#cj-admin-content .btn-warning.disabled:hover,
+.cj-admin-content .btn-warning.disabled:hover,
+#cj-admin-content .btn-warning[disabled]:hover,
+.cj-admin-content .btn-warning[disabled]:hover,
+fieldset[disabled] #cj-admin-content .btn-warning:hover,
+fieldset[disabled] .cj-admin-content .btn-warning:hover,
+#cj-admin-content .btn-warning.disabled:focus,
+.cj-admin-content .btn-warning.disabled:focus,
+#cj-admin-content .btn-warning[disabled]:focus,
+.cj-admin-content .btn-warning[disabled]:focus,
+fieldset[disabled] #cj-admin-content .btn-warning:focus,
+fieldset[disabled] .cj-admin-content .btn-warning:focus,
+#cj-admin-content .btn-warning.disabled.focus,
+.cj-admin-content .btn-warning.disabled.focus,
+#cj-admin-content .btn-warning[disabled].focus,
+.cj-admin-content .btn-warning[disabled].focus,
+fieldset[disabled] #cj-admin-content .btn-warning.focus,
+fieldset[disabled] .cj-admin-content .btn-warning.focus,
+#cj-admin-content .btn-warning.disabled:active,
+.cj-admin-content .btn-warning.disabled:active,
+#cj-admin-content .btn-warning[disabled]:active,
+.cj-admin-content .btn-warning[disabled]:active,
+fieldset[disabled] #cj-admin-content .btn-warning:active,
+fieldset[disabled] .cj-admin-content .btn-warning:active,
+#cj-admin-content .btn-warning.disabled.active,
+.cj-admin-content .btn-warning.disabled.active,
+#cj-admin-content .btn-warning[disabled].active,
+.cj-admin-content .btn-warning[disabled].active,
+fieldset[disabled] #cj-admin-content .btn-warning.active,
+fieldset[disabled] .cj-admin-content .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#cj-admin-content .btn-warning .badge,
+.cj-admin-content .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+#cj-admin-content .btn-danger,
+.cj-admin-content .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#cj-admin-content .btn-danger:hover,
+.cj-admin-content .btn-danger:hover,
+#cj-admin-content .btn-danger:focus,
+.cj-admin-content .btn-danger:focus,
+#cj-admin-content .btn-danger.focus,
+.cj-admin-content .btn-danger.focus,
+#cj-admin-content .btn-danger:active,
+.cj-admin-content .btn-danger:active,
+#cj-admin-content .btn-danger.active,
+.cj-admin-content .btn-danger.active,
+.open > .dropdown-toggle#cj-admin-content .btn-danger,
+.open > .dropdown-toggle.cj-admin-content .btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+#cj-admin-content .btn-danger:active,
+.cj-admin-content .btn-danger:active,
+#cj-admin-content .btn-danger.active,
+.cj-admin-content .btn-danger.active,
+.open > .dropdown-toggle#cj-admin-content .btn-danger,
+.open > .dropdown-toggle.cj-admin-content .btn-danger {
+  background-image: none;
+}
+#cj-admin-content .btn-danger.disabled,
+.cj-admin-content .btn-danger.disabled,
+#cj-admin-content .btn-danger[disabled],
+.cj-admin-content .btn-danger[disabled],
+fieldset[disabled] #cj-admin-content .btn-danger,
+fieldset[disabled] .cj-admin-content .btn-danger,
+#cj-admin-content .btn-danger.disabled:hover,
+.cj-admin-content .btn-danger.disabled:hover,
+#cj-admin-content .btn-danger[disabled]:hover,
+.cj-admin-content .btn-danger[disabled]:hover,
+fieldset[disabled] #cj-admin-content .btn-danger:hover,
+fieldset[disabled] .cj-admin-content .btn-danger:hover,
+#cj-admin-content .btn-danger.disabled:focus,
+.cj-admin-content .btn-danger.disabled:focus,
+#cj-admin-content .btn-danger[disabled]:focus,
+.cj-admin-content .btn-danger[disabled]:focus,
+fieldset[disabled] #cj-admin-content .btn-danger:focus,
+fieldset[disabled] .cj-admin-content .btn-danger:focus,
+#cj-admin-content .btn-danger.disabled.focus,
+.cj-admin-content .btn-danger.disabled.focus,
+#cj-admin-content .btn-danger[disabled].focus,
+.cj-admin-content .btn-danger[disabled].focus,
+fieldset[disabled] #cj-admin-content .btn-danger.focus,
+fieldset[disabled] .cj-admin-content .btn-danger.focus,
+#cj-admin-content .btn-danger.disabled:active,
+.cj-admin-content .btn-danger.disabled:active,
+#cj-admin-content .btn-danger[disabled]:active,
+.cj-admin-content .btn-danger[disabled]:active,
+fieldset[disabled] #cj-admin-content .btn-danger:active,
+fieldset[disabled] .cj-admin-content .btn-danger:active,
+#cj-admin-content .btn-danger.disabled.active,
+.cj-admin-content .btn-danger.disabled.active,
+#cj-admin-content .btn-danger[disabled].active,
+.cj-admin-content .btn-danger[disabled].active,
+fieldset[disabled] #cj-admin-content .btn-danger.active,
+fieldset[disabled] .cj-admin-content .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#cj-admin-content .btn-danger .badge,
+.cj-admin-content .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+#cj-admin-content .btn-link,
+.cj-admin-content .btn-link {
+  color: #337ab7;
+  font-weight: normal;
+  border-radius: 0;
+}
+#cj-admin-content .btn-link,
+.cj-admin-content .btn-link,
+#cj-admin-content .btn-link:active,
+.cj-admin-content .btn-link:active,
+#cj-admin-content .btn-link.active,
+.cj-admin-content .btn-link.active,
+#cj-admin-content .btn-link[disabled],
+.cj-admin-content .btn-link[disabled],
+fieldset[disabled] #cj-admin-content .btn-link,
+fieldset[disabled] .cj-admin-content .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#cj-admin-content .btn-link,
+.cj-admin-content .btn-link,
+#cj-admin-content .btn-link:hover,
+.cj-admin-content .btn-link:hover,
+#cj-admin-content .btn-link:focus,
+.cj-admin-content .btn-link:focus,
+#cj-admin-content .btn-link:active,
+.cj-admin-content .btn-link:active {
+  border-color: transparent;
+}
+#cj-admin-content .btn-link:hover,
+.cj-admin-content .btn-link:hover,
+#cj-admin-content .btn-link:focus,
+.cj-admin-content .btn-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#cj-admin-content .btn-link[disabled]:hover,
+.cj-admin-content .btn-link[disabled]:hover,
+fieldset[disabled] #cj-admin-content .btn-link:hover,
+fieldset[disabled] .cj-admin-content .btn-link:hover,
+#cj-admin-content .btn-link[disabled]:focus,
+.cj-admin-content .btn-link[disabled]:focus,
+fieldset[disabled] #cj-admin-content .btn-link:focus,
+fieldset[disabled] .cj-admin-content .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+#cj-admin-content .btn-lg,
+.cj-admin-content .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 0px;
+}
+#cj-admin-content .btn-sm,
+.cj-admin-content .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0px;
+}
+#cj-admin-content .btn-xs,
+.cj-admin-content .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0px;
+}
+#cj-admin-content .btn-block,
+.cj-admin-content .btn-block {
+  display: block;
+  width: 100%;
+}
+#cj-admin-content .btn-block + .btn-block,
+.cj-admin-content .btn-block + .btn-block {
+  margin-top: 5px;
+}
+#cj-admin-content input[type="submit"].btn-block,
+.cj-admin-content input[type="submit"].btn-block,
+#cj-admin-content input[type="reset"].btn-block,
+.cj-admin-content input[type="reset"].btn-block,
+#cj-admin-content input[type="button"].btn-block,
+.cj-admin-content input[type="button"].btn-block {
+  width: 100%;
+}
+#cj-admin-content .btn-group,
+.cj-admin-content .btn-group,
+#cj-admin-content .btn-group-vertical,
+.cj-admin-content .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+#cj-admin-content .btn-group > .btn,
+.cj-admin-content .btn-group > .btn,
+#cj-admin-content .btn-group-vertical > .btn,
+.cj-admin-content .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+#cj-admin-content .btn-group > .btn:hover,
+.cj-admin-content .btn-group > .btn:hover,
+#cj-admin-content .btn-group-vertical > .btn:hover,
+.cj-admin-content .btn-group-vertical > .btn:hover,
+#cj-admin-content .btn-group > .btn:focus,
+.cj-admin-content .btn-group > .btn:focus,
+#cj-admin-content .btn-group-vertical > .btn:focus,
+.cj-admin-content .btn-group-vertical > .btn:focus,
+#cj-admin-content .btn-group > .btn:active,
+.cj-admin-content .btn-group > .btn:active,
+#cj-admin-content .btn-group-vertical > .btn:active,
+.cj-admin-content .btn-group-vertical > .btn:active,
+#cj-admin-content .btn-group > .btn.active,
+.cj-admin-content .btn-group > .btn.active,
+#cj-admin-content .btn-group-vertical > .btn.active,
+.cj-admin-content .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+#cj-admin-content .btn-group .btn + .btn,
+.cj-admin-content .btn-group .btn + .btn,
+#cj-admin-content .btn-group .btn + .btn-group,
+.cj-admin-content .btn-group .btn + .btn-group,
+#cj-admin-content .btn-group .btn-group + .btn,
+.cj-admin-content .btn-group .btn-group + .btn,
+#cj-admin-content .btn-group .btn-group + .btn-group,
+.cj-admin-content .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+#cj-admin-content .btn-toolbar,
+.cj-admin-content .btn-toolbar {
+  margin-left: -5px;
+}
+#cj-admin-content .btn-toolbar .btn-group,
+.cj-admin-content .btn-toolbar .btn-group,
+#cj-admin-content .btn-toolbar .input-group,
+.cj-admin-content .btn-toolbar .input-group {
+  float: left;
+}
+#cj-admin-content .btn-toolbar > .btn,
+.cj-admin-content .btn-toolbar > .btn,
+#cj-admin-content .btn-toolbar > .btn-group,
+.cj-admin-content .btn-toolbar > .btn-group,
+#cj-admin-content .btn-toolbar > .input-group,
+.cj-admin-content .btn-toolbar > .input-group {
+  margin-left: 5px;
+}
+#cj-admin-content .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle),
+.cj-admin-content .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+#cj-admin-content .btn-group > .btn:first-child,
+.cj-admin-content .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+#cj-admin-content .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle),
+.cj-admin-content .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#cj-admin-content .btn-group > .btn:last-child:not(:first-child),
+.cj-admin-content .btn-group > .btn:last-child:not(:first-child),
+#cj-admin-content .btn-group > .dropdown-toggle:not(:first-child),
+.cj-admin-content .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#cj-admin-content .btn-group > .btn-group,
+.cj-admin-content .btn-group > .btn-group {
+  float: left;
+}
+#cj-admin-content .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn,
+.cj-admin-content .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#cj-admin-content .btn-group > .btn-group:first-child > .btn:last-child,
+.cj-admin-content .btn-group > .btn-group:first-child > .btn:last-child,
+#cj-admin-content .btn-group > .btn-group:first-child > .dropdown-toggle,
+.cj-admin-content .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#cj-admin-content .btn-group > .btn-group:last-child > .btn:first-child,
+.cj-admin-content .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#cj-admin-content .btn-group .dropdown-toggle:active,
+.cj-admin-content .btn-group .dropdown-toggle:active,
+#cj-admin-content .btn-group.open .dropdown-toggle,
+.cj-admin-content .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+#cj-admin-content .btn-group > .btn + .dropdown-toggle,
+.cj-admin-content .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#cj-admin-content .btn-group > .btn-lg + .dropdown-toggle,
+.cj-admin-content .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#cj-admin-content .btn-group.open .dropdown-toggle,
+.cj-admin-content .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#cj-admin-content .btn-group.open .dropdown-toggle.btn-link,
+.cj-admin-content .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#cj-admin-content .btn .caret,
+.cj-admin-content .btn .caret {
+  margin-left: 0;
+}
+#cj-admin-content .btn-lg .caret,
+.cj-admin-content .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+#cj-admin-content .dropup .btn-lg .caret,
+.cj-admin-content .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+#cj-admin-content .btn-group-vertical > .btn,
+.cj-admin-content .btn-group-vertical > .btn,
+#cj-admin-content .btn-group-vertical > .btn-group,
+.cj-admin-content .btn-group-vertical > .btn-group,
+#cj-admin-content .btn-group-vertical > .btn-group > .btn,
+.cj-admin-content .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+#cj-admin-content .btn-group-vertical > .btn-group > .btn,
+.cj-admin-content .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+#cj-admin-content .btn-group-vertical > .btn + .btn,
+.cj-admin-content .btn-group-vertical > .btn + .btn,
+#cj-admin-content .btn-group-vertical > .btn + .btn-group,
+.cj-admin-content .btn-group-vertical > .btn + .btn-group,
+#cj-admin-content .btn-group-vertical > .btn-group + .btn,
+.cj-admin-content .btn-group-vertical > .btn-group + .btn,
+#cj-admin-content .btn-group-vertical > .btn-group + .btn-group,
+.cj-admin-content .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+#cj-admin-content .btn-group-vertical > .btn:not(:first-child):not(:last-child),
+.cj-admin-content .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+#cj-admin-content .btn-group-vertical > .btn:first-child:not(:last-child),
+.cj-admin-content .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#cj-admin-content .btn-group-vertical > .btn:last-child:not(:first-child),
+.cj-admin-content .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#cj-admin-content .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn,
+.cj-admin-content .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#cj-admin-content .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.cj-admin-content .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+#cj-admin-content .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle,
+.cj-admin-content .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#cj-admin-content .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child,
+.cj-admin-content .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#cj-admin-content .btn-group-justified,
+.cj-admin-content .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+#cj-admin-content .btn-group-justified > .btn,
+.cj-admin-content .btn-group-justified > .btn,
+#cj-admin-content .btn-group-justified > .btn-group,
+.cj-admin-content .btn-group-justified > .btn-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+#cj-admin-content .btn-group-justified > .btn-group .btn,
+.cj-admin-content .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+#cj-admin-content .btn-group-justified > .btn-group .dropdown-menu,
+.cj-admin-content .btn-group-justified > .btn-group .dropdown-menu {
+  left: auto;
+}
+#cj-admin-content [data-toggle="buttons"] > .btn input[type="radio"],
+.cj-admin-content [data-toggle="buttons"] > .btn input[type="radio"],
+#cj-admin-content [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+.cj-admin-content [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+#cj-admin-content [data-toggle="buttons"] > .btn input[type="checkbox"],
+.cj-admin-content [data-toggle="buttons"] > .btn input[type="checkbox"],
+#cj-admin-content [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"],
+.cj-admin-content [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+#cj-admin-content .label,
+.cj-admin-content .label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+a#cj-admin-content .label:hover,
+a.cj-admin-content .label:hover,
+a#cj-admin-content .label:focus,
+a.cj-admin-content .label:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#cj-admin-content .label:empty,
+.cj-admin-content .label:empty {
+  display: none;
+}
+.btn #cj-admin-content .label,
+.btn .cj-admin-content .label {
+  position: relative;
+  top: -1px;
+}
+#cj-admin-content .label-default,
+.cj-admin-content .label-default {
+  background-color: #777777;
+}
+#cj-admin-content .label-default[href]:hover,
+.cj-admin-content .label-default[href]:hover,
+#cj-admin-content .label-default[href]:focus,
+.cj-admin-content .label-default[href]:focus {
+  background-color: #5e5e5e;
+}
+#cj-admin-content .label-primary,
+.cj-admin-content .label-primary {
+  background-color: #337ab7;
+}
+#cj-admin-content .label-primary[href]:hover,
+.cj-admin-content .label-primary[href]:hover,
+#cj-admin-content .label-primary[href]:focus,
+.cj-admin-content .label-primary[href]:focus {
+  background-color: #286090;
+}
+#cj-admin-content .label-success,
+.cj-admin-content .label-success {
+  background-color: #5cb85c;
+}
+#cj-admin-content .label-success[href]:hover,
+.cj-admin-content .label-success[href]:hover,
+#cj-admin-content .label-success[href]:focus,
+.cj-admin-content .label-success[href]:focus {
+  background-color: #449d44;
+}
+#cj-admin-content .label-info,
+.cj-admin-content .label-info {
+  background-color: #5bc0de;
+}
+#cj-admin-content .label-info[href]:hover,
+.cj-admin-content .label-info[href]:hover,
+#cj-admin-content .label-info[href]:focus,
+.cj-admin-content .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+#cj-admin-content .label-warning,
+.cj-admin-content .label-warning {
+  background-color: #f0ad4e;
+}
+#cj-admin-content .label-warning[href]:hover,
+.cj-admin-content .label-warning[href]:hover,
+#cj-admin-content .label-warning[href]:focus,
+.cj-admin-content .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+#cj-admin-content .label-danger,
+.cj-admin-content .label-danger {
+  background-color: #d9534f;
+}
+#cj-admin-content .label-danger[href]:hover,
+.cj-admin-content .label-danger[href]:hover,
+#cj-admin-content .label-danger[href]:focus,
+.cj-admin-content .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+#cj-admin-content .panel,
+.cj-admin-content .panel {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#cj-admin-content .panel-body,
+.cj-admin-content .panel-body {
+  padding: 15px;
+}
+#cj-admin-content .panel-heading,
+.cj-admin-content .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
+}
+#cj-admin-content .panel-heading > .dropdown .dropdown-toggle,
+.cj-admin-content .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+#cj-admin-content .panel-title,
+.cj-admin-content .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+#cj-admin-content .panel-title > a,
+.cj-admin-content .panel-title > a {
+  color: inherit;
+}
+#cj-admin-content .panel-footer,
+.cj-admin-content .panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #dddddd;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
+}
+#cj-admin-content .panel > .list-group,
+.cj-admin-content .panel > .list-group,
+#cj-admin-content .panel > .panel-collapse > .list-group,
+.cj-admin-content .panel > .panel-collapse > .list-group {
+  margin-bottom: 0;
+}
+#cj-admin-content .panel > .list-group .list-group-item,
+.cj-admin-content .panel > .list-group .list-group-item,
+#cj-admin-content .panel > .panel-collapse > .list-group .list-group-item,
+.cj-admin-content .panel > .panel-collapse > .list-group .list-group-item {
+  border-width: 1px 0;
+  border-radius: 0;
+}
+#cj-admin-content .panel > .list-group:first-child .list-group-item:first-child,
+.cj-admin-content .panel > .list-group:first-child .list-group-item:first-child,
+#cj-admin-content .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child,
+.cj-admin-content .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+  border-top: 0;
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
+}
+#cj-admin-content .panel > .list-group:last-child .list-group-item:last-child,
+.cj-admin-content .panel > .list-group:last-child .list-group-item:last-child,
+#cj-admin-content .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child,
+.cj-admin-content .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+  border-bottom: 0;
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
+}
+#cj-admin-content .panel-heading + .list-group .list-group-item:first-child,
+.cj-admin-content .panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+#cj-admin-content .list-group + .panel-footer,
+.cj-admin-content .list-group + .panel-footer {
+  border-top-width: 0;
+}
+#cj-admin-content .panel > .table,
+.cj-admin-content .panel > .table,
+#cj-admin-content .panel > .table-responsive > .table,
+.cj-admin-content .panel > .table-responsive > .table,
+#cj-admin-content .panel > .panel-collapse > .table,
+.cj-admin-content .panel > .panel-collapse > .table {
+  margin-bottom: 0;
+}
+#cj-admin-content .panel > .table caption,
+.cj-admin-content .panel > .table caption,
+#cj-admin-content .panel > .table-responsive > .table caption,
+.cj-admin-content .panel > .table-responsive > .table caption,
+#cj-admin-content .panel > .panel-collapse > .table caption,
+.cj-admin-content .panel > .panel-collapse > .table caption {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#cj-admin-content .panel > .table:first-child,
+.cj-admin-content .panel > .table:first-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child {
+  border-top-right-radius: -1px;
+  border-top-left-radius: -1px;
+}
+#cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child,
+.cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+#cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child,
+.cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child {
+  border-top-left-radius: -1px;
+  border-top-right-radius: -1px;
+}
+#cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+#cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+#cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+#cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child {
+  border-top-left-radius: -1px;
+}
+#cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+#cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+#cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.cj-admin-content .panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+#cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.cj-admin-content .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+#cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.cj-admin-content .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child {
+  border-top-right-radius: -1px;
+}
+#cj-admin-content .panel > .table:last-child,
+.cj-admin-content .panel > .table:last-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child {
+  border-bottom-right-radius: -1px;
+  border-bottom-left-radius: -1px;
+}
+#cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child,
+.cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+#cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child,
+.cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child {
+  border-bottom-left-radius: -1px;
+  border-bottom-right-radius: -1px;
+}
+#cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+#cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+#cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+#cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+  border-bottom-left-radius: -1px;
+}
+#cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+#cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+#cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.cj-admin-content .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+#cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.cj-admin-content .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+#cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.cj-admin-content .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+  border-bottom-right-radius: -1px;
+}
+#cj-admin-content .panel > .panel-body + .table,
+.cj-admin-content .panel > .panel-body + .table,
+#cj-admin-content .panel > .panel-body + .table-responsive,
+.cj-admin-content .panel > .panel-body + .table-responsive,
+#cj-admin-content .panel > .table + .panel-body,
+.cj-admin-content .panel > .table + .panel-body,
+#cj-admin-content .panel > .table-responsive + .panel-body,
+.cj-admin-content .panel > .table-responsive + .panel-body {
+  border-top: 1px solid #dddddd;
+}
+#cj-admin-content .panel > .table > tbody:first-child > tr:first-child th,
+.cj-admin-content .panel > .table > tbody:first-child > tr:first-child th,
+#cj-admin-content .panel > .table > tbody:first-child > tr:first-child td,
+.cj-admin-content .panel > .table > tbody:first-child > tr:first-child td {
+  border-top: 0;
+}
+#cj-admin-content .panel > .table-bordered,
+.cj-admin-content .panel > .table-bordered,
+#cj-admin-content .panel > .table-responsive > .table-bordered,
+.cj-admin-content .panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+#cj-admin-content .panel > .table-bordered > thead > tr > th:first-child,
+.cj-admin-content .panel > .table-bordered > thead > tr > th:first-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+#cj-admin-content .panel > .table-bordered > tbody > tr > th:first-child,
+.cj-admin-content .panel > .table-bordered > tbody > tr > th:first-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+#cj-admin-content .panel > .table-bordered > tfoot > tr > th:first-child,
+.cj-admin-content .panel > .table-bordered > tfoot > tr > th:first-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+#cj-admin-content .panel > .table-bordered > thead > tr > td:first-child,
+.cj-admin-content .panel > .table-bordered > thead > tr > td:first-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+#cj-admin-content .panel > .table-bordered > tbody > tr > td:first-child,
+.cj-admin-content .panel > .table-bordered > tbody > tr > td:first-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+#cj-admin-content .panel > .table-bordered > tfoot > tr > td:first-child,
+.cj-admin-content .panel > .table-bordered > tfoot > tr > td:first-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+#cj-admin-content .panel > .table-bordered > thead > tr > th:last-child,
+.cj-admin-content .panel > .table-bordered > thead > tr > th:last-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+#cj-admin-content .panel > .table-bordered > tbody > tr > th:last-child,
+.cj-admin-content .panel > .table-bordered > tbody > tr > th:last-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+#cj-admin-content .panel > .table-bordered > tfoot > tr > th:last-child,
+.cj-admin-content .panel > .table-bordered > tfoot > tr > th:last-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+#cj-admin-content .panel > .table-bordered > thead > tr > td:last-child,
+.cj-admin-content .panel > .table-bordered > thead > tr > td:last-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+#cj-admin-content .panel > .table-bordered > tbody > tr > td:last-child,
+.cj-admin-content .panel > .table-bordered > tbody > tr > td:last-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+#cj-admin-content .panel > .table-bordered > tfoot > tr > td:last-child,
+.cj-admin-content .panel > .table-bordered > tfoot > tr > td:last-child,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+#cj-admin-content .panel > .table-bordered > thead > tr:first-child > td,
+.cj-admin-content .panel > .table-bordered > thead > tr:first-child > td,
+#cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+.cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr:first-child > td,
+#cj-admin-content .panel > .table-bordered > tbody > tr:first-child > td,
+.cj-admin-content .panel > .table-bordered > tbody > tr:first-child > td,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td,
+#cj-admin-content .panel > .table-bordered > thead > tr:first-child > th,
+.cj-admin-content .panel > .table-bordered > thead > tr:first-child > th,
+#cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+.cj-admin-content .panel > .table-responsive > .table-bordered > thead > tr:first-child > th,
+#cj-admin-content .panel > .table-bordered > tbody > tr:first-child > th,
+.cj-admin-content .panel > .table-bordered > tbody > tr:first-child > th,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th {
+  border-bottom: 0;
+}
+#cj-admin-content .panel > .table-bordered > tbody > tr:last-child > td,
+.cj-admin-content .panel > .table-bordered > tbody > tr:last-child > td,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+#cj-admin-content .panel > .table-bordered > tfoot > tr:last-child > td,
+.cj-admin-content .panel > .table-bordered > tfoot > tr:last-child > td,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td,
+#cj-admin-content .panel > .table-bordered > tbody > tr:last-child > th,
+.cj-admin-content .panel > .table-bordered > tbody > tr:last-child > th,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+#cj-admin-content .panel > .table-bordered > tfoot > tr:last-child > th,
+.cj-admin-content .panel > .table-bordered > tfoot > tr:last-child > th,
+#cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+.cj-admin-content .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+  border-bottom: 0;
+}
+#cj-admin-content .panel > .table-responsive,
+.cj-admin-content .panel > .table-responsive {
+  border: 0;
+  margin-bottom: 0;
+}
+#cj-admin-content .panel-group,
+.cj-admin-content .panel-group {
+  margin-bottom: 20px;
+}
+#cj-admin-content .panel-group .panel,
+.cj-admin-content .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 0px;
+}
+#cj-admin-content .panel-group .panel + .panel,
+.cj-admin-content .panel-group .panel + .panel {
+  margin-top: 5px;
+}
+#cj-admin-content .panel-group .panel-heading,
+.cj-admin-content .panel-group .panel-heading {
+  border-bottom: 0;
+}
+#cj-admin-content .panel-group .panel-heading + .panel-collapse > .panel-body,
+.cj-admin-content .panel-group .panel-heading + .panel-collapse > .panel-body,
+#cj-admin-content .panel-group .panel-heading + .panel-collapse > .list-group,
+.cj-admin-content .panel-group .panel-heading + .panel-collapse > .list-group {
+  border-top: 1px solid #dddddd;
+}
+#cj-admin-content .panel-group .panel-footer,
+.cj-admin-content .panel-group .panel-footer {
+  border-top: 0;
+}
+#cj-admin-content .panel-group .panel-footer + .panel-collapse .panel-body,
+.cj-admin-content .panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #dddddd;
+}
+#cj-admin-content .panel-default,
+.cj-admin-content .panel-default {
+  border-color: #dddddd;
+}
+#cj-admin-content .panel-default > .panel-heading,
+.cj-admin-content .panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+#cj-admin-content .panel-default > .panel-heading + .panel-collapse > .panel-body,
+.cj-admin-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #dddddd;
+}
+#cj-admin-content .panel-default > .panel-heading .badge,
+.cj-admin-content .panel-default > .panel-heading .badge {
+  color: #f5f5f5;
+  background-color: #333333;
+}
+#cj-admin-content .panel-default > .panel-footer + .panel-collapse > .panel-body,
+.cj-admin-content .panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #dddddd;
+}
+#cj-admin-content .panel-primary,
+.cj-admin-content .panel-primary {
+  border-color: #337ab7;
+}
+#cj-admin-content .panel-primary > .panel-heading,
+.cj-admin-content .panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+#cj-admin-content .panel-primary > .panel-heading + .panel-collapse > .panel-body,
+.cj-admin-content .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #337ab7;
+}
+#cj-admin-content .panel-primary > .panel-heading .badge,
+.cj-admin-content .panel-primary > .panel-heading .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+#cj-admin-content .panel-primary > .panel-footer + .panel-collapse > .panel-body,
+.cj-admin-content .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #337ab7;
+}
+#cj-admin-content .panel-success,
+.cj-admin-content .panel-success {
+  border-color: #d6e9c6;
+}
+#cj-admin-content .panel-success > .panel-heading,
+.cj-admin-content .panel-success > .panel-heading {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+#cj-admin-content .panel-success > .panel-heading + .panel-collapse > .panel-body,
+.cj-admin-content .panel-success > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #d6e9c6;
+}
+#cj-admin-content .panel-success > .panel-heading .badge,
+.cj-admin-content .panel-success > .panel-heading .badge {
+  color: #dff0d8;
+  background-color: #3c763d;
+}
+#cj-admin-content .panel-success > .panel-footer + .panel-collapse > .panel-body,
+.cj-admin-content .panel-success > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #d6e9c6;
+}
+#cj-admin-content .panel-info,
+.cj-admin-content .panel-info {
+  border-color: #bce8f1;
+}
+#cj-admin-content .panel-info > .panel-heading,
+.cj-admin-content .panel-info > .panel-heading {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+#cj-admin-content .panel-info > .panel-heading + .panel-collapse > .panel-body,
+.cj-admin-content .panel-info > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #bce8f1;
+}
+#cj-admin-content .panel-info > .panel-heading .badge,
+.cj-admin-content .panel-info > .panel-heading .badge {
+  color: #d9edf7;
+  background-color: #31708f;
+}
+#cj-admin-content .panel-info > .panel-footer + .panel-collapse > .panel-body,
+.cj-admin-content .panel-info > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #bce8f1;
+}
+#cj-admin-content .panel-warning,
+.cj-admin-content .panel-warning {
+  border-color: #faebcc;
+}
+#cj-admin-content .panel-warning > .panel-heading,
+.cj-admin-content .panel-warning > .panel-heading {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+#cj-admin-content .panel-warning > .panel-heading + .panel-collapse > .panel-body,
+.cj-admin-content .panel-warning > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #faebcc;
+}
+#cj-admin-content .panel-warning > .panel-heading .badge,
+.cj-admin-content .panel-warning > .panel-heading .badge {
+  color: #fcf8e3;
+  background-color: #8a6d3b;
+}
+#cj-admin-content .panel-warning > .panel-footer + .panel-collapse > .panel-body,
+.cj-admin-content .panel-warning > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #faebcc;
+}
+#cj-admin-content .panel-danger,
+.cj-admin-content .panel-danger {
+  border-color: #ebccd1;
+}
+#cj-admin-content .panel-danger > .panel-heading,
+.cj-admin-content .panel-danger > .panel-heading {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+#cj-admin-content .panel-danger > .panel-heading + .panel-collapse > .panel-body,
+.cj-admin-content .panel-danger > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ebccd1;
+}
+#cj-admin-content .panel-danger > .panel-heading .badge,
+.cj-admin-content .panel-danger > .panel-heading .badge {
+  color: #f2dede;
+  background-color: #a94442;
+}
+#cj-admin-content .panel-danger > .panel-footer + .panel-collapse > .panel-body,
+.cj-admin-content .panel-danger > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ebccd1;
+}
+#cj-admin-content .embed-responsive,
+.cj-admin-content .embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#cj-admin-content .embed-responsive .embed-responsive-item,
+.cj-admin-content .embed-responsive .embed-responsive-item,
+#cj-admin-content .embed-responsive iframe,
+.cj-admin-content .embed-responsive iframe,
+#cj-admin-content .embed-responsive embed,
+.cj-admin-content .embed-responsive embed,
+#cj-admin-content .embed-responsive object,
+.cj-admin-content .embed-responsive object,
+#cj-admin-content .embed-responsive video,
+.cj-admin-content .embed-responsive video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+#cj-admin-content .embed-responsive.embed-responsive-16by9,
+.cj-admin-content .embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+#cj-admin-content .embed-responsive.embed-responsive-4by3,
+.cj-admin-content .embed-responsive.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+#cj-admin-content .close,
+.cj-admin-content .close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+#cj-admin-content .close:hover,
+.cj-admin-content .close:hover,
+#cj-admin-content .close:focus,
+.cj-admin-content .close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+button#cj-admin-content .close,
+button.cj-admin-content .close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+@-ms-viewport {
+  width: device-width;
+}
+#cj-admin-content .visible-xs,
+.cj-admin-content .visible-xs,
+#cj-admin-content .visible-sm,
+.cj-admin-content .visible-sm,
+#cj-admin-content .visible-md,
+.cj-admin-content .visible-md,
+#cj-admin-content .visible-lg,
+.cj-admin-content .visible-lg {
+  display: none !important;
+}
+#cj-admin-content .visible-xs-block,
+.cj-admin-content .visible-xs-block,
+#cj-admin-content .visible-xs-inline,
+.cj-admin-content .visible-xs-inline,
+#cj-admin-content .visible-xs-inline-block,
+.cj-admin-content .visible-xs-inline-block,
+#cj-admin-content .visible-sm-block,
+.cj-admin-content .visible-sm-block,
+#cj-admin-content .visible-sm-inline,
+.cj-admin-content .visible-sm-inline,
+#cj-admin-content .visible-sm-inline-block,
+.cj-admin-content .visible-sm-inline-block,
+#cj-admin-content .visible-md-block,
+.cj-admin-content .visible-md-block,
+#cj-admin-content .visible-md-inline,
+.cj-admin-content .visible-md-inline,
+#cj-admin-content .visible-md-inline-block,
+.cj-admin-content .visible-md-inline-block,
+#cj-admin-content .visible-lg-block,
+.cj-admin-content .visible-lg-block,
+#cj-admin-content .visible-lg-inline,
+.cj-admin-content .visible-lg-inline,
+#cj-admin-content .visible-lg-inline-block,
+.cj-admin-content .visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #cj-admin-content .visible-xs,
+  .cj-admin-content .visible-xs {
+    display: block !important;
+  }
+  table#cj-admin-content .visible-xs,
+  table.cj-admin-content .visible-xs {
+    display: table;
+  }
+  tr#cj-admin-content .visible-xs,
+  tr.cj-admin-content .visible-xs {
+    display: table-row !important;
+  }
+  th#cj-admin-content .visible-xs,
+  th.cj-admin-content .visible-xs,
+  td#cj-admin-content .visible-xs,
+  td.cj-admin-content .visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  #cj-admin-content .visible-xs-block,
+  .cj-admin-content .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  #cj-admin-content .visible-xs-inline,
+  .cj-admin-content .visible-xs-inline {
+    display: inline !important;
+  }
+}
+@media (max-width: 767px) {
+  #cj-admin-content .visible-xs-inline-block,
+  .cj-admin-content .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #cj-admin-content .visible-sm,
+  .cj-admin-content .visible-sm {
+    display: block !important;
+  }
+  table#cj-admin-content .visible-sm,
+  table.cj-admin-content .visible-sm {
+    display: table;
+  }
+  tr#cj-admin-content .visible-sm,
+  tr.cj-admin-content .visible-sm {
+    display: table-row !important;
+  }
+  th#cj-admin-content .visible-sm,
+  th.cj-admin-content .visible-sm,
+  td#cj-admin-content .visible-sm,
+  td.cj-admin-content .visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #cj-admin-content .visible-sm-block,
+  .cj-admin-content .visible-sm-block {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #cj-admin-content .visible-sm-inline,
+  .cj-admin-content .visible-sm-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #cj-admin-content .visible-sm-inline-block,
+  .cj-admin-content .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #cj-admin-content .visible-md,
+  .cj-admin-content .visible-md {
+    display: block !important;
+  }
+  table#cj-admin-content .visible-md,
+  table.cj-admin-content .visible-md {
+    display: table;
+  }
+  tr#cj-admin-content .visible-md,
+  tr.cj-admin-content .visible-md {
+    display: table-row !important;
+  }
+  th#cj-admin-content .visible-md,
+  th.cj-admin-content .visible-md,
+  td#cj-admin-content .visible-md,
+  td.cj-admin-content .visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #cj-admin-content .visible-md-block,
+  .cj-admin-content .visible-md-block {
+    display: block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #cj-admin-content .visible-md-inline,
+  .cj-admin-content .visible-md-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #cj-admin-content .visible-md-inline-block,
+  .cj-admin-content .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1200px) {
+  #cj-admin-content .visible-lg,
+  .cj-admin-content .visible-lg {
+    display: block !important;
+  }
+  table#cj-admin-content .visible-lg,
+  table.cj-admin-content .visible-lg {
+    display: table;
+  }
+  tr#cj-admin-content .visible-lg,
+  tr.cj-admin-content .visible-lg {
+    display: table-row !important;
+  }
+  th#cj-admin-content .visible-lg,
+  th.cj-admin-content .visible-lg,
+  td#cj-admin-content .visible-lg,
+  td.cj-admin-content .visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #cj-admin-content .visible-lg-block,
+  .cj-admin-content .visible-lg-block {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  #cj-admin-content .visible-lg-inline,
+  .cj-admin-content .visible-lg-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) {
+  #cj-admin-content .visible-lg-inline-block,
+  .cj-admin-content .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 767px) {
+  #cj-admin-content .hidden-xs,
+  .cj-admin-content .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #cj-admin-content .hidden-sm,
+  .cj-admin-content .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #cj-admin-content .hidden-md,
+  .cj-admin-content .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #cj-admin-content .hidden-lg,
+  .cj-admin-content .hidden-lg {
+    display: none !important;
+  }
+}
+#cj-admin-content .visible-print,
+.cj-admin-content .visible-print {
+  display: none !important;
+}
+@media print {
+  #cj-admin-content .visible-print,
+  .cj-admin-content .visible-print {
+    display: block !important;
+  }
+  table#cj-admin-content .visible-print,
+  table.cj-admin-content .visible-print {
+    display: table;
+  }
+  tr#cj-admin-content .visible-print,
+  tr.cj-admin-content .visible-print {
+    display: table-row !important;
+  }
+  th#cj-admin-content .visible-print,
+  th.cj-admin-content .visible-print,
+  td#cj-admin-content .visible-print,
+  td.cj-admin-content .visible-print {
+    display: table-cell !important;
+  }
+}
+#cj-admin-content .visible-print-block,
+.cj-admin-content .visible-print-block {
+  display: none !important;
+}
+@media print {
+  #cj-admin-content .visible-print-block,
+  .cj-admin-content .visible-print-block {
+    display: block !important;
+  }
+}
+#cj-admin-content .visible-print-inline,
+.cj-admin-content .visible-print-inline {
+  display: none !important;
+}
+@media print {
+  #cj-admin-content .visible-print-inline,
+  .cj-admin-content .visible-print-inline {
+    display: inline !important;
+  }
+}
+#cj-admin-content .visible-print-inline-block,
+.cj-admin-content .visible-print-inline-block {
+  display: none !important;
+}
+@media print {
+  #cj-admin-content .visible-print-inline-block,
+  .cj-admin-content .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+@media print {
+  #cj-admin-content .hidden-print,
+  .cj-admin-content .hidden-print {
+    display: none !important;
+  }
+}
+#cj-admin-content .clearfix:before,
+.cj-admin-content .clearfix:before,
+#cj-admin-content .clearfix:after,
+.cj-admin-content .clearfix:after,
+#cj-admin-content #cj-admin-content .form-horizontal .form-group:before,
+.cj-admin-content #cj-admin-content .form-horizontal .form-group:before,
+#cj-admin-content #cj-admin-content .form-horizontal .form-group:after,
+.cj-admin-content #cj-admin-content .form-horizontal .form-group:after,
+#cj-admin-content .cj-admin-content .form-horizontal .form-group:before,
+.cj-admin-content .cj-admin-content .form-horizontal .form-group:before,
+#cj-admin-content .cj-admin-content .form-horizontal .form-group:after,
+.cj-admin-content .cj-admin-content .form-horizontal .form-group:after,
+#cj-admin-content #cj-admin-content .btn-toolbar:before,
+.cj-admin-content #cj-admin-content .btn-toolbar:before,
+#cj-admin-content #cj-admin-content .btn-toolbar:after,
+.cj-admin-content #cj-admin-content .btn-toolbar:after,
+#cj-admin-content .cj-admin-content .btn-toolbar:before,
+.cj-admin-content .cj-admin-content .btn-toolbar:before,
+#cj-admin-content .cj-admin-content .btn-toolbar:after,
+.cj-admin-content .cj-admin-content .btn-toolbar:after,
+#cj-admin-content #cj-admin-content .btn-group-vertical > .btn-group:before,
+.cj-admin-content #cj-admin-content .btn-group-vertical > .btn-group:before,
+#cj-admin-content #cj-admin-content .btn-group-vertical > .btn-group:after,
+.cj-admin-content #cj-admin-content .btn-group-vertical > .btn-group:after,
+#cj-admin-content .cj-admin-content .btn-group-vertical > .btn-group:before,
+.cj-admin-content .cj-admin-content .btn-group-vertical > .btn-group:before,
+#cj-admin-content .cj-admin-content .btn-group-vertical > .btn-group:after,
+.cj-admin-content .cj-admin-content .btn-group-vertical > .btn-group:after,
+#cj-admin-content #cj-admin-content .panel-body:before,
+.cj-admin-content #cj-admin-content .panel-body:before,
+#cj-admin-content #cj-admin-content .panel-body:after,
+.cj-admin-content #cj-admin-content .panel-body:after,
+#cj-admin-content .cj-admin-content .panel-body:before,
+.cj-admin-content .cj-admin-content .panel-body:before,
+#cj-admin-content .cj-admin-content .panel-body:after,
+.cj-admin-content .cj-admin-content .panel-body:after {
+  content: " ";
+  display: table;
+}
+#cj-admin-content .clearfix:after,
+.cj-admin-content .clearfix:after,
+#cj-admin-content #cj-admin-content .form-horizontal .form-group:after,
+.cj-admin-content #cj-admin-content .form-horizontal .form-group:after,
+#cj-admin-content .cj-admin-content .form-horizontal .form-group:after,
+.cj-admin-content .cj-admin-content .form-horizontal .form-group:after,
+#cj-admin-content #cj-admin-content .btn-toolbar:after,
+.cj-admin-content #cj-admin-content .btn-toolbar:after,
+#cj-admin-content .cj-admin-content .btn-toolbar:after,
+.cj-admin-content .cj-admin-content .btn-toolbar:after,
+#cj-admin-content #cj-admin-content .btn-group-vertical > .btn-group:after,
+.cj-admin-content #cj-admin-content .btn-group-vertical > .btn-group:after,
+#cj-admin-content .cj-admin-content .btn-group-vertical > .btn-group:after,
+.cj-admin-content .cj-admin-content .btn-group-vertical > .btn-group:after,
+#cj-admin-content #cj-admin-content .panel-body:after,
+.cj-admin-content #cj-admin-content .panel-body:after,
+#cj-admin-content .cj-admin-content .panel-body:after,
+.cj-admin-content .cj-admin-content .panel-body:after {
+  clear: both;
+}
+#cj-admin-content .center-block,
+.cj-admin-content .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cj-admin-content .pull-right,
+.cj-admin-content .pull-right {
+  float: right !important;
+}
+#cj-admin-content .pull-left,
+.cj-admin-content .pull-left {
+  float: left !important;
+}

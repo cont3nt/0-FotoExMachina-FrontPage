@@ -1,0 +1,47 @@
+<div class="col-lg-13 col-lg-offset-3 col-md-12 col-md-offset-4">
+    <!-- main content -->
+    <div ng-if="main_wrap">
+        <h2 class="main-title" ng-bind-html="page_title | trusted_html"></h2>
+
+        <p ng-if="search_errors">{{ search_errors }}</p>
+
+        <div ng-if="!search_errors">
+
+            <ul class="list-tickets select-none">
+                <li ng-repeat="ticket in tickets | orderBy: ['starred', 'order']:true" ng-class="{starred:ticket.starred}">
+                    <div class="actions visible-lg">
+                        <a ng-if="ticket.ticket_status == 'publish'" ng-click="markTicketResolved(ticket.ID, 'closed')" tooltip="{{ lang.close_ticket }}" tooltip-placement="top"><span class="action bg-gray"><i class="fa fa-check"></i></span></a>
+                        <a ng-if="ticket.ticket_status == 'closed'" ng-click="markTicketResolved(ticket.ID, 'publish')" tooltip="{{ lang.reopen_ticket }}" tooltip-placement="top"><span class="action bg-success"><i class="fa fa-folder-open-o"></i></span></a>
+                        <a ng-if="!ticket.starred" ng-click="markTicketStarred(ticket.ID, 'add')" tooltip="{{ lang.add_star }}" tooltip-placement="top"><span class="action bg-gray"><i class="fa fa-star"></i></span></a>
+                        <a ng-if="ticket.starred" ng-click="markTicketStarred(ticket.ID, 'remove')" tooltip="{{ lang.remove_star }}" tooltip-placement="top"><span class="action bg-warning"><i class="fa fa-star"></i></span></a>
+                        <a href="#/ticket/{{ ticket.ID }}" tooltip="{{ lang.view_ticket }}" tooltip-placement="top"><span class="action bg-info"><i class="fa fa-eye"></i></span></a>
+                    </div>
+                    <div class="user-avatar">
+                        <img ng-src="{{ ticket.user_avatar }}" alt="" />
+                    </div>
+                    <h2 class="title">
+                        <a href="#/ticket/{{ ticket.ID }}">{{ ticket.subject }}</a>
+                    </h2>
+                    <p>
+                        <span class="ticket-meta" ng-bind-html="ticket.ticket_meta | trusted_html"></span>
+                    </p>
+                </li>
+            </ul>
+
+        </div>
+
+    </div><!-- main content -->
+
+
+
+    <span ng-if="!main_wrap" class="font-size-40">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </span>
+
+</div>

@@ -1,0 +1,43 @@
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cj-alert.alert {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background: #f7f7f7;
+  color: #222222;
+}
+.cj-alert.alert.alert-default {
+  background: #f7f7f7;
+  border: 1px solid #dedede;
+  color: #999;
+}
+.cj-alert.alert.alert-error {
+  background: #d9534f;
+  border: 1px solid #c9302c;
+  color: #ffffff;
+}
+.cj-alert.alert.alert-danger {
+  background: #d9534f;
+  border: 1px solid #c9302c;
+  color: #ffffff;
+}
+.cj-alert.alert.alert-success {
+  background: #5cb85c;
+  border: 1px solid #449d44;
+  color: #ffffff;
+}
+.cj-alert.alert.alert-warning {
+  background: #f0ad4e;
+  border: 1px solid #ec971f;
+  color: #ffffff;
+}
+.cj-alert.alert.alert-info {
+  background: #5bc0de;
+  border: 1px solid #31b0d5;
+  color: #ffffff;
+}

@@ -1,0 +1,200 @@
+<div ng-if="ticket" id="body-content" class="col-lg-10 col-lg-offset-3 col-md-9 col-md-offset-4">
+    <div ng-if="main_wrap">
+		<!-- main content -->
+
+        <div ng-if="showCreateFaq" class="well margin-25-top">
+            <h2 class="main-title margin-0-top margin-10-bottom padding-0-top">{{ lang.create_faq }}</h2>
+            <form ng-submit="submitFAQ()" role="form">
+
+                <div ng-if="faq_success" class="alert alert-success" ng-bind-html="faq_success_msg | trusted_html"></div>
+                <div ng-if="faq_error" class="alert alert-danger" ng-bind-html="faq_error_msg | trusted_html"></div>
+
+                <div class="form-group">
+                    <label for="faq_title">{{ lang.question }}</label>
+                    <textarea ng-model="faq.title" id="faq_title" cols="30" rows="2" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="faq_title">{{ lang.answer }}</label>
+                    <textarea ng-if="lang.textarea_type == 'wysiwyg'" ng-model="faq.content" id="faq_content" ui-tinymce="tinymceOptions" class="form-control"></textarea>
+                    <textarea ng-if="lang.textarea_type != 'wysiwyg'" ng-model="faq.content" id="faq_content" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">{{ lang.submit }}</button>
+                    <button ng-click="cancelCreateFaq()" class="btn btn-inverse">{{ lang.cancel }}</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div ng-if="!showCreateFaq">
+
+            <div class="clearfix">
+                <div ng-if="!ticket.view_only" class="pull-right padding-25-top">
+                    <a ng-if="ticket.ticket_status == 'publish'" ng-click="markTicketResolved(ticket.ID, 'closed')" tooltip="{{ lang.close_ticket }}" tooltip-placement="top"><span class="action bg-gray"><i class="fa fa-check"></i></span></a>
+                    <a ng-if="ticket.ticket_status == 'closed'" ng-click="markTicketResolved(ticket.ID, 'publish')" tooltip="{{ lang.reopen_ticket }}" tooltip-placement="top"><span class="action bg-success"><i class="fa fa-folder-open-o"></i></span></a>
+                    <a ng-if="!ticket.starred" ng-click="markTicketStarred(ticket.ID, 'add')" tooltip="{{ lang.add_star }}" tooltip-placement="top"><span class="action bg-gray"><i class="fa fa-star"></i></span></a>
+                    <a ng-if="ticket.starred" ng-click="markTicketStarred(ticket.ID, 'remove')" tooltip="{{ lang.remove_star }}" tooltip-placement="top"><span class="action bg-warning"><i class="fa fa-star"></i></span></a>
+                    <a ng-if="ticket.visibility == 'private'"><span class="action bg-danger"><i class="fa fa-lock"></i></span></a>
+                    <a ng-if="ticket.visibility == 'public'"><span class="action bg-info"><i class="fa fa-globe"></i></span></a>
+                    <a ng-click="getTicket()" tooltip="{{ lang.refresh }}" tooltip-placement="top"><span class="action bg-inverse"><i class="fa fa-refresh"></i></span></a>
+                </div>
+                <h2 class="main-title">{{ ticket.title }}</h2>
+            </div>
+
+            <div class="ticket-comment">
+                <div class="user-info">
+                    <div class="user-avatar">
+                        <img ng-src="{{ ticket.user_avatar }}" alt="" />
+                    </div>
+                    <h3 class="user-name">{{ ticket.user_name }}</h3>
+                    <i><span ng-bind-html="ticket.submitted | trusted_html"></span></i>
+                </div>
+                <div class="comment" ng-bind-html="ticket.content | trusted_html"></div>
+            </div>
+
+            <div class="uncollapse_button" ng-if="uncollapse_button">
+                <a ng-click="uncollapseComments()"><i>{{ lang.show_previous_comments }} ({{ collapse_count }})</i></a>
+                <span></span><span></span><span></span><span></span>
+            </div>
+
+            <div ng-if="cmt.count > collapse_count" ng-repeat="cmt in comments | orderBy:'order'" id="cmt.comment_ID" class="ticket-comment" ng-class="{agentcomment:cmt.comment_user_type == 'agent'}">
+                <span class="comment-links pull-right">
+                    <a ng-if="cmt.can_create_faq" ng-click="createCommentFaq(ticket.title, cmt.comment_content, ticket.product, ticket.ID)" class="btn btn-xs btn-block btn-primary">Create FAQ</a>
+                    <a ng-if="cmt.can_edit_comment" ng-click="editComment(cmt.comment_ID, cmt.comment_content)" class="btn btn-xs btn-block btn-info">{{ lang.edit_comment }}</a>
+                </span>
+                <div class="user-info">
+                    <div class="user-avatar">
+                        <img ng-src="{{ cmt.user_avatar }}" alt="" />
+                    </div>
+                    <h3 class="user-name">{{ cmt.display_name }} <span ng-bind-html="cmt.internal_note | trusted_html"></span></h3>
+                    <i><span ng-bind-html="cmt.comment_date | trusted_html"></span></i>
+                </div>
+                <div class="comment" ng-bind-html="cmt.comment_content | trusted_html"></div>
+            </div>
+
+            <div ng-if="ticket_errors" ng-bind-html="ticket_errors | trusted_html" class="alert margin-20-top margin-20-bottom alert-danger"></div>
+
+            <div ng-if="ticket.ticket_status == 'closed'" class="ticket-closed" ng-bind-html="lang.ticket_closed_msg | trusted_html"></div>
+
+            <section ng-if="!ticket.view_only" id="ticket-form" class="add-comment margin-120-bottom">
+                <div ng-if="ticket.ticket_status == 'publish'">
+                    <div class="user-avatar">
+                        <img ng-src="{{ ticket.user_avatar }}" alt="" />
+                    </div>
+                    <div ng-if="errors" class="alert alert-danger" ng-bind-html="errors | trusted_html"></div>
+                    <form ng-submit="submitComment(ticket.ID)" role="form">
+
+                        <div class="form-group">
+                            <label for="content" ng-bind-html="lang.ticket_message | trusted_html"></label>
+                            <input ng-model="comment.ticket_id" type="hidden" />
+                            <textarea ng-if="lang.textarea_type == 'wysiwyg'" ng-model="comment.content" id="content" ui-tinymce="tinymceOptions" class="form-control" placeholder="" rows="5" cols="40"></textarea>
+                            <textarea ng-if="lang.textarea_type != 'wysiwyg'" ng-model="comment.content" id="content" class="form-control" placeholder="" rows="5" cols="40"></textarea>
+                        </div>
+
+                        <div ng-if="ticket.ticket_status == 'publish'" class="checkbox bg-inverse form-meta">
+                            <label><input ng-model="comment.close" type="checkbox"> {{ lang.checkbox_close }}</label><br>
+                        </div>
+
+                        <div class="form-group bg-gray form-meta">
+                            <label for="attachments" ng-bind-html="lang.attach_a_file | trusted_html"></label>
+                            <input type="file" name="file" onchange="angular.element(this).scope().uploadFile(this.files)" />
+                            <input type="hidden" size="100" id="attachedFiles" ng-model="comment.attachments" value="" placeholder="" />
+                            <p class="help-block">{{ lang.attach_a_file_desc }}</p>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">{{ lang.post_response }}</button>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+
+        </div><!-- faq-toggle -->
+
+		<!-- main content -->
+    </div>
+    <span ng-if="!main_wrap" class="font-size-40">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </span>
+</div>
+
+<div ng-if="main_wrap" class="col-lg-3 col-md-3 sidebar-right">
+    <div class="padding-15">
+        <h2>{{ lang.ticket_information }}</h2>
+        <p><b>{{ lang.ticket_id_label }}</b> {{ ticket.ticket_uid }}</p>
+        <p ng-if="ticket.ticket_status == 'publish'"><b>{{ lang.status }}</b> {{ lang.open }}</p>
+        <p ng-if="ticket.ticket_status == 'closed'"><b>{{ lang.status }}</b> {{ lang.closed }}</p>
+        <p><b>{{ lang.submitted_by }}</b><br><b>{{ ticket.user_name }}</b> on <i><span ng-bind-html="ticket.submitted | trusted_html"></span></i></p>
+        <p><b>{{ lang.department }}</b><br><span ng-bind-html="ticket.department | trusted_html"></span></p>
+        <p><b>{{ lang.product }}</b><br><span ng-bind-html="ticket.product | trusted_html"></span> <span ng-bind-html="ticket.purchased | trusted_html"></span></p>
+        <p><b>{{ lang.assigned_to }}</b><br><span ng-bind-html="ticket.agent_name | trusted_html"></span> (<span ng-bind-html="ticket.agent_login | trusted_html"></span>)</p>
+        <div class="sep"></div>
+        <div ng-if="isAgent || isAdmin">
+            <div ng-if="!ticket.view_only" class="margin-15-top">
+                <div ng-if="ticket.ticket_status == 'publish'">
+                    <h2>{{ lang.transfer_ticket }}</h2>
+                    <form ng-submit="transferTicket(ticket.ID)" role="form">
+
+                        <div ng-if="transfer_errors" ng-bind-html="transfer_errors | trusted_html" class="alert margin-20-top margin-20-bottom alert-danger"></div>
+
+                        <div class="form-group">
+                            <label for="department" ng-bind-html="lang.change_department | trusted_html"></label>
+                            <select id="department" ng-model="transfer.department" class="form-control">
+                                <option value="{{ department.id }}" ng-repeat="department in departments" ng-bind-html="department.name | trusted_html"></option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product" ng-bind-html="lang.change_product | trusted_html"></label>
+                            <select id="product" ng-model="transfer.product" class="form-control">
+                                <option value="{{ product.id }}" ng-repeat="product in products" ng-bind-html="product.name | trusted_html"></option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="internal_notes" ng-bind-html="lang.internal_notes | trusted_html"></label>
+                            <textarea ng-model="transfer.internal_notes" id="internal_notes" class="form-control" cols="30" rows="2"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">{{ lang.transfer_ticket }}</button>
+                        </div>
+
+                    </form>
+
+                    <h2 class="margin-30-top">{{ lang.ticket_visibility }}</h2>
+                    <p><a ng-click="markTicketPublic(ticket.ID)" class="btn btn-block btn-info">{{ ticket.visibility_button }}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/ng-template" id="editComment.html">
+<form ng-submit="saveComment()" role="form">
+<div class="modal-header">
+    <h3 class="modal-title">{{ lang.edit_comment_title }}</h3>
+</div>
+<div class="modal-body">
+        <div ng-if="editcommenterrors" class="alert alert-danger">{{ editcommenterrors }}</div>
+        <div class="form-group">
+            <input ng-model="edit_comment.comment_ID" type="hidden" />
+            <textarea ng-if="lang.textarea_type == 'wysiwyg'" ng-model="edit_comment.content" id="edit-content" ui-tinymce="tinymceOptions" class="form-control" placeholder="" rows="5" cols="40"></textarea>
+            <textarea ng-if="lang.textarea_type != 'wysiwyg'" ng-model="edit_comment.content" id="edit-content" class="form-control" placeholder="" rows="5" cols="40"></textarea>
+        </div>
+
+</div>
+<div class="modal-footer">
+    <button class="btn btn-success" type="submit">{{ lang.save }}</button>
+    <button class="btn btn-danger" ng-click="cancel()">{{ lang.cancel }}</button>
+</div>
+</form>
+</script>

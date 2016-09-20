@@ -1,0 +1,90 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css';
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#cjsupport-faqs {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+#cjsupport-faqs a {
+  text-decoration: none;
+  border: 0px;
+}
+#cjsupport-faqs a:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+#cjsupport-faqs #products {
+  width: 100%;
+  position: relative;
+}
+#cjsupport-faqs #products .product-title {
+  display: block;
+  padding: 10px;
+  text-decoration: none !important;
+  border: 0px;
+  font-size: 18px;
+}
+#cjsupport-faqs #products .product-title i.fa-angle-right {
+  margin-top: 7px;
+  margin-right: 5px;
+  float: right;
+  font-size: 18px;
+}
+#cjsupport-faqs .faqs-panel {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 100%;
+}
+#cjsupport-faqs .faq-header {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none !important;
+  background: transparent;
+  border: 0px solid #ededed;
+  font-size: 18px;
+}
+#cjsupport-faqs .faq-header i.fa-times-circle {
+  margin-top: 7px;
+  margin-right: 5px;
+  float: right;
+  font-size: 18px;
+}
+#cjsupport-faqs .faq-body {
+  height: 100%;
+  padding: 15px;
+}
+#cjsupport-faqs .faq-body .faq-title {
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+}
+#cjsupport-faqs .faq-body .cjsupport-toggle {
+  display: none;
+}
+#cjsupport-faqs .faq-body .faq-content {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#cjsupport-faqs .cjsupport-faqs-category .faq-title {
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+}
+#cjsupport-faqs .cjsupport-faqs-category .cjsupport-toggle {
+  display: none;
+}
+#cjsupport-faqs .cjsupport-faqs-category .faq-content {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,61 @@
+<div ng-if="field.field_type == 'text'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<input ng-required="field.field_required == 1" id="{{field.field_id}}" ng-model="custom_fields[field.field_id]" type="text" class="form-control" />
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'url'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<input ng-required="field.field_required == 1" id="{{field.field_id}}" ng-model="custom_fields[field.field_id]" type="url" class="form-control" />
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'email'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<input ng-required="field.field_required == 1" id="{{field.field_id}}" ng-model="custom_fields[field.field_id]" type="email" class="form-control" />
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'date'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<input ng-required="field.field_required == 1" id="{{field.field_id}}" ng-model="custom_fields[field.field_id]" type="date" class="form-control" />
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'textarea'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<textarea ng-required="field.field_required == 1" id="{{field.field_id}}" ng-model="custom_fields[field.field_id]" class="form-control" rows="5" cols="40"></textarea>
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'dropdown'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<select ng-required="field.field_required == 1" id="{{field.field_id}}" ng-model="custom_fields[field.field_id]" class="form-control">
+		<option ng-repeat="option in field.field_options" ng-value="option">{{option}}</option>
+	</select>
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'multidropdown'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<select ng-required="field.field_required == 1" id="{{field.field_id}}" ng-model="custom_fields[field.field_id]" class="form-control" multiple>
+		<option ng-repeat="option in field.field_options" ng-value="option">{{option}}</option>
+	</select>
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'checkbox'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<div ng-repeat="option in field.field_options" class="checkbox">
+	<label><input ng-model="custom_fields[field.field_id][option]" type="checkbox"> {{option}}</label>
+	</div>
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>
+
+<div ng-if="field.field_type == 'radio'" class="form-group">
+	<label for="{{field.field_id}}" ng-bind-html="field.field_label | trusted_html"></label>
+	<div ng-repeat="option in field.field_options" class="radio">
+	<label><input ng-model="custom_fields[field.field_id]" ng-value="option" type="radio"> {{option}}</label>
+	</div>
+	<span class="help-block" ng-bind-html="field.field_info | trusted_html"></span>
+</div>

@@ -1,0 +1,41 @@
+<div class="col-lg-13 col-lg-offset-3 col-md-12 col-md-offset-4">
+    <div ng-if="main_wrap">
+		<!-- main content -->
+        <h2 class="main-title">
+            {{ title }}
+            <a class="pull-right btn margin-5-left btn-success btn-sm" ng-click="reloadTickets()"><i class="fa fa-refresh"></i></a>
+            <span class="pull-right visible-md visible-lg" id="search">
+                <input type="search" ng-model="search_tickets" placeholder="{{ lang.search_tickets }}">
+            </span>
+        </h2>
+        <ul ng-if="tickets_count" class="list-tickets select-none">
+            <li ng-repeat="ticket in tickets | orderBy: ['starred', 'order']:true | filter:search_tickets">
+                <div class="actions visible-lg">
+                    <a href="#/public-tickets/{{ ticket.ID }}" tooltip="{{ lang.view_ticket }}" tooltip-placement="top"><span class="action bg-info"><i class="fa fa-eye"></i></span></a>
+                </div>
+                <div class="user-avatar  hidden-xs">
+                    <img ng-src="{{ ticket.user_avatar }}" alt="" />
+                </div>
+                <h2 class="title">
+                    <a href="#/public-tickets/{{ ticket.ID }}">{{ ticket.subject }}</a>
+                </h2>
+                <p>
+                    <span class="ticket-meta" ng-bind-html="ticket.ticket_meta | trusted_html"></span>
+                </p>
+            </li>
+        </ul>
+        <div ng-if="!tickets_count">
+            <p>{{ lang.no_tickets }}</p>
+        </div>
+		<!-- main content -->
+    </div>
+    <span ng-if="!main_wrap" class="font-size-40">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </span>
+</div>

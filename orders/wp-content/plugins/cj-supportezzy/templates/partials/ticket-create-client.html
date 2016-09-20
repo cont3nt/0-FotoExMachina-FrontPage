@@ -1,0 +1,111 @@
+<div class="col-lg-13 col-lg-offset-3 col-md-12 col-md-offset-4">
+
+    <div ng-if="main_wrap">
+    	<!-- main content -->
+        <h2 class="main-title">{{ lang.submit_new_ticket }}</h2>
+        <div class="row">
+            <div ng-if="!isClient" class="col-md-9">
+                <br>
+                <div class="well padding-0-bottom">
+                    <div class="form-group">
+                        <label for="client_email" ng-bind-html="lang.label_find_client"></label>
+                        <input id="client_email" ng-model='ticket.client_string' class="form-control" type="text" value="" ng-change="findClientEmail()" />
+                        <p class="info-block" ng-bind-html="lang.info_client_email | trusted_html"></p>
+                    </div>
+                    <p ng-if="client_found" ng-repeat="client in client_found">
+                        <a ng-click="setClientEmail(client)">{{client.display_name}} : {{client.user_email}}</a>
+                    </p>
+                    <div class="alert alert-warning" ng-if="client_not_found">
+                        <span ng-bind-html="client_not_found | trusted_html"></span>
+                    </div>
+                    <div class="alert alert-info" ng-if="new_user_response">
+                        <span ng-bind-html="new_user_response | trusted_html"></span>
+                    </div>
+                </div>
+
+                <section ng-if="ticket.client_email" id="ticket-form">
+                    <div ng-if="errors" class="alert alert-danger" ng-bind-html="errors | trusted_html"></div>
+                    <form ng-submit="submitTicket()" role="form">
+
+                        <div class="form-group">
+                            <label for="client_email" ng-bind-html="lang.label_client_email | trusted_html"></label>
+                            <input id="client_email" ng-model="ticket.client_email" readonly="true" type="text" class="form-control" placeholder="" />
+                        </div>
+
+                        <div ng-if="hide_products == 'no'" class="form-group">
+                            <label for="product" ng-bind-html="lang.ticket_product | trusted_html"></label>
+                            <select id="product" ng-model="ticket.product" class="form-control">
+                                <option value="{{ product.id }}" ng-repeat="product in response.products" ng-bind-html="product.name | trusted_html"></option>
+                            </select>
+                        </div>
+
+                        <div ng-if="hide_departments == 'no'" class="form-group">
+                            <label for="department" ng-bind-html="lang.ticket_department | trusted_html"></label>
+                            <select id="department" ng-model="ticket.department" class="form-control">
+                                <option value="{{ department.id }}" ng-repeat="department in response.departments" ng-bind-html="department.name | trusted_html"></option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" ng-bind-html="lang.ticket_subject | trusted_html"></label>
+                            <input id="subject" ng-model="ticket.subject" type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="form-group">
+                            <label for="url" ng-bind-html="lang.ticket_url | trusted_html"></label>
+                            <input id="url" ng-model="ticket.url" type="url" class="form-control" placeholder="{{ lang.http }}" />
+                        </div>
+                        <div ng-if="lang.mod_ticket_priority" class="form-group">
+                            <label for="ticket-priority">{{lang.ticket_priority_label}}</label><br>
+                            <select class="form-control" id="ticket-priority" ng-model="ticket.priority">
+                                <option ng-repeat="option in lang.ticket_priority_options" value="{{ option.value }}" ng-bind-html="option.name | trusted_html"></option>
+                            </select>
+                        </div>
+
+                        <div ng-repeat="field in lang.custom_form_fields">
+                            <ng-include src="lang.form_builder_url" />
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="content" ng-bind-html="lang.ticket_message | trusted_html"></label>
+                            <textarea ng-if="lang.textarea_type == 'wysiwyg'" id="content" ui-tinymce="tinymceOptions" ng-model="ticket.content" class="form-control" placeholder="" rows="5" cols="40"></textarea>
+                            <textarea ng-if="lang.textarea_type != 'wysiwyg'" id="content" ng-model="ticket.content" class="form-control" placeholder="" rows="5" cols="40"></textarea>
+                        </div>
+                        <div class="form-group bg-gray form-meta">
+                            <label for="attachments">
+                                <span ng-bind-html="lang.attach_a_file | trusted_html"></span><br>
+                                <span class="inline-block margin-10-top btn btn-default btn-xs">{{lang.choose_file}}</span>
+                            </label>
+                            <input id="attachments" class="hidden" type="file" multiple name="file" onchange="angular.element(this).scope().uploadFile(this.files, '#ticket-attachments-list')" />
+                            <input type="hidden" id="attachedFiles" ng-model="ticket.attachments" value="" placeholder="" />
+                            <div id="ticket-attachments-list"></div>
+                            <p class="help-block">{{ lang.attach_a_file_desc }}</p>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">{{ lang.submit_ticket }}</button>
+                        </div>
+
+
+                    </form>
+
+
+                </section>
+            </div>
+        </div>
+
+    </div><!-- main content -->
+
+
+
+    <span ng-if="!main_wrap" class="font-size-40">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </span>
+
+
+</div>

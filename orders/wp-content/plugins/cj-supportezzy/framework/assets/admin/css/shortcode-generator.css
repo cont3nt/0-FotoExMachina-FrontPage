@@ -1,0 +1,50 @@
+/**
+ * @package CSSJockey WordPress Framework
+ * @author Mohit Aneja (cssjockey.com)
+ * @version FW-20150208
+*/
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#cj-shortcode-generator-backdrop {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10000;
+}
+#cj-shortcode-generator-panel {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -400px;
+  width: 800px;
+  max-height: 80%;
+  background: #ffffff;
+  z-index: 10001;
+}
+#cj-shortcode-generator-panel .select-shortcode {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+#cj-shortcode-generator-panel .no-border-radius {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#cj-shortcode-generator-panel #cj-sg-dynamic-content {
+  min-height: 100px;
+}
+#cj-shortcode-generator-panel .cj-sg-loading-icon {
+  font-size: 48px;
+  text-align: center;
+  color: #999;
+  width: 100%;
+  padding: 40px 0;
+}

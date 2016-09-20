@@ -1,0 +1,4245 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CSSJockey SupportEzzy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Apr 21 2015 09:48:37 GMT+0530 (IST)\n"
+"POT-Revision-Date: Tue Apr 21 2015 09:48:43 GMT+0530 (IST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../item_setup.php:36
+msgid "Basic Configuration"
+msgstr ""
+
+#: ../item_setup.php:37
+msgid "Color Scheme & Styles"
+msgstr ""
+
+#: ../item_setup.php:38
+msgid "Sidebar Settings"
+msgstr ""
+
+#: ../item_setup.php:39 ../options/cjsupport_app_ticket_priority.php:23
+msgid "Ticket Priority"
+msgstr ""
+
+#: ../item_setup.php:41
+msgid "Customize Form"
+msgstr ""
+
+#: ../item_setup.php:42
+msgid "Manage Support Staff"
+msgstr ""
+
+#: ../item_setup.php:44 ../options/cjsupport_emails_variables.php:45
+msgid "Dynamic Variables"
+msgstr ""
+
+#: ../item_setup.php:45 ../item_setup.php:211
+msgid "New Ticket"
+msgstr ""
+
+#: ../item_setup.php:46
+msgid "New Comment"
+msgstr ""
+
+#: ../item_setup.php:47
+msgid "Update Comment"
+msgstr ""
+
+#: ../item_setup.php:48
+msgid "Ticket Status Change"
+msgstr ""
+
+#: ../item_setup.php:49
+msgid "Ticket Transfered"
+msgstr ""
+
+#: ../item_setup.php:50
+msgid "Ticket Auto Close"
+msgstr ""
+
+#: ../item_setup.php:51
+msgid "Unattended Tickets"
+msgstr ""
+
+#: ../item_setup.php:52 ../item_setup.php:243
+msgid "New FAQ"
+msgstr ""
+
+#: ../item_setup.php:53
+msgid "New User"
+msgstr ""
+
+#: ../item_setup.php:55
+msgid "IMAP Configuration"
+msgstr ""
+
+#: ../item_setup.php:57
+msgid "Woocommerce"
+msgstr ""
+
+#: ../item_setup.php:58
+msgid "Envato Marketplace"
+msgstr ""
+
+#: ../item_setup.php:133
+msgid "Agents Only Menu (SupportEzzy)"
+msgstr ""
+
+#: ../item_setup.php:134
+msgid "Clients Only Menu (SupportEzzy)"
+msgstr ""
+
+#: ../item_setup.php:135
+msgid "Visitors Only Menu (SupportEzzy)"
+msgstr ""
+
+#: ../item_setup.php:206
+msgid "Tickets"
+msgstr ""
+
+#: ../item_setup.php:207
+msgid "Ticket"
+msgstr ""
+
+#: ../item_setup.php:208 ../item_setup.php:240
+msgid "Add New"
+msgstr ""
+
+#: ../item_setup.php:209
+msgid "Add New Ticket"
+msgstr ""
+
+#: ../item_setup.php:210
+msgid "Edit Ticket"
+msgstr ""
+
+#: ../item_setup.php:212
+msgid "View Ticket"
+msgstr ""
+
+#: ../item_setup.php:213
+msgid "Search Ticket"
+msgstr ""
+
+#: ../item_setup.php:214
+msgid "No Ticket found"
+msgstr ""
+
+#: ../item_setup.php:215
+msgid "No Ticket found in Trash"
+msgstr ""
+
+#: ../item_setup.php:238 ../modules/functions/lang.php:114
+msgid "FAQs"
+msgstr ""
+
+#: ../item_setup.php:239
+msgid "FAQ"
+msgstr ""
+
+#: ../item_setup.php:241
+msgid "Add New FAQ"
+msgstr ""
+
+#: ../item_setup.php:242
+msgid "Edit FAQ"
+msgstr ""
+
+#: ../item_setup.php:244
+msgid "View FAQ"
+msgstr ""
+
+#: ../item_setup.php:245
+msgid "Search FAQ"
+msgstr ""
+
+#: ../item_setup.php:246
+msgid "No FAQ found"
+msgstr ""
+
+#: ../item_setup.php:247
+msgid "No FAQ found in Trash"
+msgstr ""
+
+#: ../item_setup.php:274 ../options/cjsupport_manage_staff.php:78 ..
+#: /options/email-piping/mailboxes.php:15
+msgid "Departments"
+msgstr ""
+
+#: ../item_setup.php:275
+msgid "Department"
+msgstr ""
+
+#: ../item_setup.php:276
+msgid "Search Department"
+msgstr ""
+
+#: ../item_setup.php:277 ../options/cjsupport_manage_staff.php:141 ..
+#: /options/email-piping/mailboxes.php:33
+msgid "All Departments"
+msgstr ""
+
+#: ../item_setup.php:278
+msgid "Parent Department"
+msgstr ""
+
+#: ../item_setup.php:279
+msgid "Parent Department:"
+msgstr ""
+
+#: ../item_setup.php:280
+msgid "Edit Department"
+msgstr ""
+
+#: ../item_setup.php:281
+msgid "Update Department"
+msgstr ""
+
+#: ../item_setup.php:282
+msgid "Add New Department"
+msgstr ""
+
+#: ../item_setup.php:283
+msgid "New Department"
+msgstr ""
+
+#: ../item_setup.php:297 ../item_setup.php:298 ../modules/functions/lang.php:129 .
+#: ./options/cjsupport_manage_staff.php:79 ../options/email-piping/mailboxes.php:16
+msgid "Products"
+msgstr ""
+
+#: ../item_setup.php:299
+msgid "Search Products"
+msgstr ""
+
+#: ../item_setup.php:300 ../options/cjsupport_manage_staff.php:144 ..
+#: /options/email-piping/mailboxes.php:41
+msgid "All Products"
+msgstr ""
+
+#: ../item_setup.php:301
+msgid "Parent Products"
+msgstr ""
+
+#: ../item_setup.php:302
+msgid "Parent Products:"
+msgstr ""
+
+#: ../item_setup.php:303
+msgid "Edit Products"
+msgstr ""
+
+#: ../item_setup.php:304
+msgid "Update Products"
+msgstr ""
+
+#: ../item_setup.php:305
+msgid "Add New Products"
+msgstr ""
+
+#: ../item_setup.php:306
+msgid "New Products"
+msgstr ""
+
+#: ../upload-file.php:18
+msgid "No files found"
+msgstr ""
+
+#: ../framework/framework.php:443
+msgid "Opiton ID not defined, please check code."
+msgstr ""
+
+#: ../framework/framework.php:1050
+msgid "Just now"
+msgstr ""
+
+#: ../framework/framework.php:1061
+msgid "year"
+msgstr ""
+
+#: ../framework/framework.php:1062
+msgid "month"
+msgstr ""
+
+#: ../framework/framework.php:1063
+msgid "day"
+msgstr ""
+
+#: ../framework/framework.php:1064
+msgid "hour"
+msgstr ""
+
+#: ../framework/framework.php:1065
+msgid "minute"
+msgstr ""
+
+#: ../framework/framework.php:1066
+msgid "second"
+msgstr ""
+
+#: ../framework/framework.php:1069
+msgid "years"
+msgstr ""
+
+#: ../framework/framework.php:1070
+msgid "months"
+msgstr ""
+
+#: ../framework/framework.php:1071
+msgid "days"
+msgstr ""
+
+#: ../framework/framework.php:1072
+msgid "hours"
+msgstr ""
+
+#: ../framework/framework.php:1073
+msgid "minutes"
+msgstr ""
+
+#: ../framework/framework.php:1074
+msgid "seconds"
+msgstr ""
+
+#: ../framework/framework.php:1080
+msgid "ago"
+msgstr ""
+
+#: ../framework/framework.php:1194 ../framework/framework.php:1258
+#, php-format
+msgid "File size must be below %s kilobytes."
+msgstr ""
+
+#: ../framework/framework.php:1200 ../framework/framework.php:1264
+#, php-format
+msgid "Image width must be %s pixels."
+msgstr ""
+
+#: ../framework/framework.php:1204 ../framework/framework.php:1268
+#, php-format
+msgid "Image height must be %s pixels."
+msgstr ""
+
+#: ../framework/framework.php:1208 ../framework/framework.php:1272
+msgid "Invalid file type."
+msgstr ""
+
+#: ../framework/framework.php:1369
+msgid "Oops!! Page not found."
+msgstr ""
+
+#: ../framework/framework.php:1370 ../framework/framework.php:1380
+#, php-format
+msgid "Archive for <span class=\"highlight-term\">\"%s\"</span>"
+msgstr ""
+
+#: ../framework/framework.php:1372
+msgid "Articles posted by: "
+msgstr ""
+
+#: ../framework/framework.php:1373
+#, php-format
+msgid "Archive for <span class=\"highlight-term\">\"%s\"</span> category"
+msgstr ""
+
+#: ../framework/framework.php:1375
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: ../framework/framework.php:1377
+#, php-format
+msgid "Search results for <span class=\"highlight-term\">\"%s\"</span>"
+msgstr ""
+
+#: ../framework/framework.php:1379
+#, php-format
+msgid "Posts tagged <span class=\"highlight-term\">\"%s\"</span>"
+msgstr ""
+
+#: ../framework/framework.php:1681 ../modules/functions/lang.php:115
+msgid "Settings"
+msgstr ""
+
+#: ../framework/framework.php:1682 ../framework/includes/admin_page.php:59
+msgid "Uninstall"
+msgstr ""
+
+#: ../framework/framework.php:1720 ../framework/includes/admin_form.php:287 ..
+#: /framework/includes/admin_form.php:376 ../framework/includes/admin_form.php:
+#: 397 ../framework/includes/admin_form.php:418 ../framework/includes/admin_form.
+#: php:441 ../framework/includes/admin_form.php:464 ..
+#: /framework/includes/admin_form.php:489 ../framework/includes/admin_form.php:
+#: 510 ../framework/includes/admin_form.php:531 ../framework/includes/admin_form.
+#: php:561 ../framework/includes/admin_form.php:599 ..
+#: /framework/includes/admin_form.php:623 ../framework/includes/admin_form.php:
+#: 644 ../framework/includes/admin_form.php:666 ../framework/includes/admin_form.
+#: php:687 ../framework/includes/admin_form.php:711 ..
+#: /framework/includes/admin_form.php:732 ../framework/includes/admin_form_raw.
+#: php:282 ../framework/includes/admin_form_raw.php:421 ..
+#: /framework/includes/admin_form_raw.php:442 ..
+#: /framework/includes/admin_form_raw.php:463 ..
+#: /framework/includes/admin_form_raw.php:486 ..
+#: /framework/includes/admin_form_raw.php:509 ..
+#: /framework/includes/admin_form_raw.php:534 ..
+#: /framework/includes/admin_form_raw.php:555 ..
+#: /framework/includes/admin_form_raw.php:576 ..
+#: /framework/includes/admin_form_raw.php:606 ..
+#: /framework/includes/admin_form_raw.php:645 ..
+#: /framework/includes/admin_form_raw.php:668 ..
+#: /framework/includes/admin_form_raw.php:689 ..
+#: /framework/includes/admin_form_raw.php:711 ..
+#: /framework/includes/admin_form_raw.php:732 ..
+#: /framework/includes/admin_form_raw.php:754 ..
+#: /framework/includes/admin_form_raw.php:775 ..
+#: /framework/includes/admin_form_raw.php:799 ..
+#: /framework/includes/admin_form_raw.php:820 ../options/cjsupport_woocommerce.
+#: php:11
+msgid "None"
+msgstr ""
+
+#: ../framework/framework.php:1788 ../framework/framework.php:1791 ..
+#: /framework/framework.php:1842
+msgid "No locations found."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:28
+msgid "Test Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:36 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:270
+msgid "Test Text"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:37 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:48 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:55 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:62 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:70 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:77 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:89 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:95 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:102 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:117 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:125 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:132 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:138 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:144 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:156 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:167 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:178 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:189 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:197 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:204 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:212 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:218 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:230 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:271 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:337 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:344 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:351 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:357 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:363 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:369 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:375 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:393
+msgid "field description (optional)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:47
+msgid "Test Text Small"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:54
+msgid "Test Text Medium"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:61
+msgid "Website URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:69
+msgid "Test Text Email"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:76
+msgid "Test Time"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:82 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:83
+msgid "Time zone"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:88
+msgid "Test Date Picker"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:94
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:101
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:116
+msgid "Test Money"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:124
+msgid "Test Color Picker"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:131
+msgid "Test Text Area"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:137
+msgid "Test Text Area Small"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:143
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:149
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:150
+msgid "This is a title description"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:155
+msgid "Test Select"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:160 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:171 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:182
+msgid "Option One"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:161 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:172 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:183
+msgid "Option Two"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:162 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:173 ..
+#: /framework/assets/admin/helpers/metabox/example-functions.php:184
+msgid "Option Three"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:166
+msgid "Test Radio inline"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:177
+msgid "Test Radio"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:188
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:196
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:203
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:211
+msgid "Test Checkbox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:217
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:222
+msgid "Check One"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:223
+msgid "Check Two"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:224
+msgid "Check Three"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:229
+msgid "Test wysiwyg"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:236
+msgid "Test Image"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:237
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:242
+msgid "Multiple Files"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:243
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:249
+msgid "oEmbed"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:250
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress."
+"org/Embeds</a>."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:262
+msgid "About Page Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:283
+msgid "Repeating Field Group"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:289
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:291
+msgid "Entry {#}"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:292
+msgid "Add Another Entry"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:293
+msgid "Remove Entry"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:330
+msgid "User Profile Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:336
+msgid "Extra Info"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:343
+msgid "Avatar"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:350
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:356
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:362
+msgid "Google+ URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:368
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:374
+msgid "User Field"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:388
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/example-functions.php:392
+msgid "Site Background Color"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:258
+msgid "Clear"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:259
+msgid "Default"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:260
+msgid "Select Color"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:261
+msgid "Current Color"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:288
+msgid "Select / Deselect All"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/init.php:1179 ..
+#: /modules/functions/lang.php:109
+msgid "Save"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:20
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:21
+msgid "Type Postal Code to search for address"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:24
+msgid "Type postal code to find address."
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:26
+msgid "Address Line 1"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:27
+msgid "Address Line 2"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:28
+msgid "City"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:29
+msgid "State"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:30
+msgid "Country"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:32 
+#: ../framework/assets/admin/helpers/metabox/extensions/lnglat.php:14
+msgid "Latitude"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/address-by-zipcode.php:33 
+#: ../framework/assets/admin/helpers/metabox/extensions/lnglat.php:15
+msgid "Longitude"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 18
+msgid "Backgound Repeat"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 31
+msgid "Backgound Size"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 44
+msgid "Backgound Position"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/background_properties.php:
+#: 57
+msgid "Backgound Attachment"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:20
+msgid "Border Top (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:25
+msgid "Border Right (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:30
+msgid "Border Bottom (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:35
+msgid "Border Left (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:40
+msgid "Border Style"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/border.php:53
+msgid "Border Color (#HEX)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:18
+msgid "Padding Top (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:23
+msgid "Padding Right (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:28
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:33
+msgid "Padding Left (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:59
+msgid "Margin Top (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:64
+msgid "Margin Right (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:69
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/padding_margin.php:74
+msgid "Margin Left (px)"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:13
+msgid "Day"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:15
+msgid "Starttime"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:16
+msgid "Endtime"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:28
+msgid "Start Time"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/extensions/working_hours.php:29
+msgid "End Time"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_field.php:459
+msgid "Add Group"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_field.php:460
+msgid "Remove Group"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:250
+msgid "Add Row"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:306 ..
+#: /framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:706 ..
+#: /framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:768
+msgid "Remove"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:601 ..
+#: /framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:635
+msgid "No terms"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:674 ..
+#: /framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:728
+msgid "Add or Upload File"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:695 ..
+#: /framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:760
+msgid "Remove Image"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:706 ..
+#: /framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:768
+msgid "File:"
+msgstr ""
+
+#: ../framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:706 ..
+#: /framework/assets/admin/helpers/metabox/helpers/cmb_Meta_Box_types.php:768
+msgid "Download"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:55 ../framework/includes/shortcode-
+#: generator-backup/cj_shortcode_generator_panel.php:49
+msgid "Select Shortcode"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:102
+msgid "Shortcode Settings"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:123 ../framework/includes/sample-
+#: code/metabox_sample.php:56 ../modules/functions/docs-faqs-metabox.php:24
+msgid "Content"
+msgstr ""
+
+#: ../framework/includes/admin_ajax.php:151
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:32
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: ../framework/includes/admin_form.php:37
+msgid "Settings saved successfully."
+msgstr ""
+
+#: ../framework/includes/admin_form.php:83 ../framework/includes/admin_form.php:84
+msgid ""
+"Are you sure?\n"
+"This canont be undone."
+msgstr ""
+
+#: ../framework/includes/admin_form.php:83
+msgid "Reset Section"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:84
+msgid "Reset All"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:189 ../framework/includes/admin_form.php:
+#: 189 ../framework/includes/admin_form_raw.php:149 ..
+#: /framework/includes/admin_form_raw.php:149 ..
+#: /framework/includes/admin_form_raw.php:180 ..
+#: /framework/includes/admin_form_raw.php:180
+msgid "Top"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:190 ../framework/includes/admin_form.php:
+#: 190 ../framework/includes/admin_form_raw.php:150 ..
+#: /framework/includes/admin_form_raw.php:150 ..
+#: /framework/includes/admin_form_raw.php:181 ..
+#: /framework/includes/admin_form_raw.php:181
+msgid "Bottom"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:191 ../framework/includes/admin_form.php:
+#: 191 ../framework/includes/admin_form_raw.php:151 ..
+#: /framework/includes/admin_form_raw.php:151 ..
+#: /framework/includes/admin_form_raw.php:182 ..
+#: /framework/includes/admin_form_raw.php:182
+msgid "Left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:192 ../framework/includes/admin_form.php:
+#: 192 ../framework/includes/admin_form_raw.php:152 ..
+#: /framework/includes/admin_form_raw.php:152 ..
+#: /framework/includes/admin_form_raw.php:183 ..
+#: /framework/includes/admin_form_raw.php:183 ..
+#: /framework/includes/admin_form_raw.php:184
+msgid "Right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:474 ../framework/includes/admin_form_raw.
+#: php:519
+msgid "No custom post types found"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:820 ../framework/includes/admin_form.php:
+#: 1165 ../framework/includes/admin_form_raw.php:908 ..
+#: /framework/includes/admin_form_raw.php:1279
+msgid "Upload File"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:853 ../framework/includes/admin_form_raw.
+#: php:942
+msgid "Upload Files"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1005 ../framework/includes/admin_form.php:
+#: 1022 ../framework/includes/admin_form.php:1048 ..
+#: /framework/includes/admin_form.php:1176 ../framework/includes/admin_form.php:
+#: 1201 ../framework/includes/admin_form.php:1228 ..
+#: /framework/includes/admin_form.php:1251 ../framework/includes/admin_form_raw.
+#: php:1119 ../framework/includes/admin_form_raw.php:1136 ..
+#: /framework/includes/admin_form_raw.php:1162 ..
+#: /framework/includes/admin_form_raw.php:1290 ..
+#: /framework/includes/admin_form_raw.php:1315 ..
+#: /framework/includes/admin_form_raw.php:1342 ..
+#: /framework/includes/admin_form_raw.php:1365
+msgid "Inherit"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1006 ../framework/includes/admin_form_raw.
+#: php:1120
+msgid "Bold"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1007 ../framework/includes/admin_form_raw.
+#: php:1121
+msgid "Bolder"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1008 ../framework/includes/admin_form.php:
+#: 1025 ../framework/includes/admin_form_raw.php:1122 ..
+#: /framework/includes/admin_form_raw.php:1139
+msgid "Normal"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1009 ../framework/includes/admin_form_raw.
+#: php:1123
+msgid "Lighter"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1010 ../framework/includes/admin_form_raw.
+#: php:1124
+msgid "100"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1011 ../framework/includes/admin_form_raw.
+#: php:1125
+msgid "200"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1012 ../framework/includes/admin_form_raw.
+#: php:1126
+msgid "300"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1013 ../framework/includes/admin_form_raw.
+#: php:1127
+msgid "400"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1014 ../framework/includes/admin_form_raw.
+#: php:1128
+msgid "500"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1015 ../framework/includes/admin_form_raw.
+#: php:1129
+msgid "600"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1016 ../framework/includes/admin_form_raw.
+#: php:1130
+msgid "700"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1017 ../framework/includes/admin_form_raw.
+#: php:1131
+msgid "800"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1018 ../framework/includes/admin_form_raw.
+#: php:1132
+msgid "900"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1023 ../framework/includes/admin_form_raw.
+#: php:1137
+msgid "Italic"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1024 ../framework/includes/admin_form_raw.
+#: php:1138
+msgid "Oblique"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1071 ../framework/includes/admin_form_raw.
+#: php:1185
+msgid "Family:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1076 ../framework/includes/admin_form_raw.
+#: php:1190
+msgid "Size:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1083 ../framework/includes/admin_form_raw.
+#: php:1197
+msgid "Weight:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1088 ../framework/includes/admin_form_raw.
+#: php:1202
+msgid "Style:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1093 ../framework/includes/admin_form_raw.
+#: php:1207
+msgid "Line Height:"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1144 ../framework/includes/admin_form_raw.
+#: php:1258
+msgid "Transparent"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1164 ../framework/includes/admin_form_raw.
+#: php:1278
+msgid "Upload background image"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1177 ../framework/includes/admin_form_raw.
+#: php:1291
+msgid "Repeat All"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1178 ../framework/includes/admin_form_raw.
+#: php:1292
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1179 ../framework/includes/admin_form_raw.
+#: php:1293
+msgid "Repeat Vertical"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1180 ../framework/includes/admin_form_raw.
+#: php:1294
+msgid "Do not repeat"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1190 ../framework/includes/admin_form_raw.
+#: php:1304
+msgid "Background Repeat"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1202 ../framework/includes/admin_form_raw.
+#: php:1316
+msgid "Cover"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1203 ../framework/includes/admin_form_raw.
+#: php:1317
+msgid "Contain"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1213 ../framework/includes/admin_form_raw.
+#: php:1327
+msgid "Background Size"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1229 ../framework/includes/admin_form_raw.
+#: php:1343
+msgid "Fixed"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1230 ../framework/includes/admin_form_raw.
+#: php:1344
+msgid "Scroll"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1240 ../framework/includes/admin_form_raw.
+#: php:1354
+msgid "Background Attachment"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1252 ../framework/includes/admin_form_raw.
+#: php:1366
+msgid "top left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1253 ../framework/includes/admin_form_raw.
+#: php:1367
+msgid "top center"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1254 ../framework/includes/admin_form_raw.
+#: php:1368
+msgid "top right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1255 ../framework/includes/admin_form_raw.
+#: php:1369
+msgid "bottom left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1256 ../framework/includes/admin_form_raw.
+#: php:1370
+msgid "bottom center"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1257 ../framework/includes/admin_form_raw.
+#: php:1371
+msgid "bottom right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1258 ../framework/includes/admin_form_raw.
+#: php:1372
+msgid "center left"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1259 ../framework/includes/admin_form_raw.
+#: php:1373
+msgid "center center"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1260 ../framework/includes/admin_form_raw.
+#: php:1374
+msgid "center right"
+msgstr ""
+
+#: ../framework/includes/admin_form.php:1270 ../framework/includes/admin_form_raw.
+#: php:1384
+msgid "Background Position"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:184
+msgid "Style"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:185
+msgid "Color"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:301 ..
+#: /framework/includes/admin_form_raw.php:326
+msgid "Select"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:957
+msgid "Choose File"
+msgstr ""
+
+#: ../framework/includes/admin_form_raw.php:969
+msgid "Choose Files"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:44
+msgid ""
+"Dropdown key language strings not found in item_setup.php. Specify an array "
+"$cjsupport_item_vars[\"localize_variables\"]"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:50
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:56 ../framework/includes/sample-
+#: code/core_maintenance_mode.php:11 ../framework/includes/sample-
+#: code/core_maintenance_mode.php:17
+msgid "Maintenance Mode"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:57
+msgid "Check for Upgrades"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:58
+msgid "Backup &amp; Restore"
+msgstr ""
+
+#: ../framework/includes/admin_page.php:85
+msgid "Javascript must be enabled."
+msgstr ""
+
+#: ../framework/includes/admin_page.php:100
+#, php-format
+msgid "<b>%s.php</b> not found in options or addons directory."
+msgstr ""
+
+#: ../framework/includes/cj-products.php:29
+msgid "Other CSSJockey Products"
+msgstr ""
+
+#: ../framework/includes/cj-products.php:45 ../framework/includes/cj-products.php:
+#: 56
+msgid "View Details"
+msgstr ""
+
+#: ../framework/includes/cj-products.php:62
+#, php-format
+msgid "No products or add-ons found matched your query. <a href=\"%s\">View All</a>"
+msgstr ""
+
+#: ../framework/includes/db_setup.php:63
+#, php-format
+msgid ""
+"<p><strong>ERROR</strong>: Duplicate options found!  <br /><b>%s <br "
+"/>(%s)</b></p>"
+msgstr ""
+
+#: ../framework/includes/shortcode_form.php:53
+msgid "Please select"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:37 ..
+#: /framework/includes/shortcode_generator.php:58
+msgid "Select shortcode"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:64 ../options/custom-
+#: fields/fields-list.php:32
+msgid "Options"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:102 ..
+#: /framework/includes/shortcode_generator.php:121
+msgid "Please Select "
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:152
+#, php-format
+msgid "Shortcode Generator (%s)"
+msgstr ""
+
+#: ../framework/includes/shortcode_generator.php:159
+msgid "Choose a shortcode"
+msgstr ""
+
+#: ../framework/includes/widget_options_form.php:57 ..
+#: /framework/includes/widget_options_form.php:76
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: ../framework/includes/widget_options_form.php:98
+msgid "No options available for this widget."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:196 ..
+#: /framework/includes/install-plugins/register_plugins.php:65
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:197 ..
+#: /framework/includes/install-plugins/register_plugins.php:66
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:198 ..
+#: /framework/includes/install-plugins/register_plugins.php:67
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:200
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:201
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:202 ..
+#: /framework/includes/install-plugins/register_plugins.php:71
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:203 ..
+#: /framework/includes/install-plugins/register_plugins.php:72
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:204 ..
+#: /framework/includes/install-plugins/register_plugins.php:73
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:205 ..
+#: /framework/includes/install-plugins/register_plugins.php:74
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:206
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:207 ..
+#: /framework/includes/install-plugins/register_plugins.php:76
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:208 ..
+#: /framework/includes/install-plugins/register_plugins.php:77
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:209 ..
+#: /framework/includes/install-plugins/register_plugins.php:78
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:210 ..
+#: /framework/includes/install-plugins/register_plugins.php:79
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:212 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:1951 ..
+#: /framework/includes/install-plugins/register_plugins.php:80
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:213 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:1638
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:544 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:544 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:2168 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1185 ..
+#: /options/custom-fields/fields-add-new.php:130 ../options/custom-fields/fields-
+#: edit.php:137 ../options/custom-fields/fields-list.php:33
+msgid "Required"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1290 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:1290 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1312 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:1312 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2065 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2065 ..
+#: /framework/includes/install-plugins/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/includes/install-plugins/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:68
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:69
+#, php-format
+msgid "CSSJockey requires the following plugin: %1$s."
+msgid_plural "CSSJockey requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:70
+#, php-format
+msgid "CSSJockey recommends the following plugin: %1$s."
+msgid_plural "CSSJockey recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:75
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/install-plugins/register_plugins.php:81
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:25
+msgid "Add-Ons"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:31
+msgid "Name"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:32
+msgid "Version"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:33
+msgid "Directory"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:34
+msgid "Resources"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:45 ..
+#: /framework/includes/options/core_welcome.php:8 ../modules/functions/lang.php:113
+msgid "Documentation"
+msgstr ""
+
+#: ../framework/includes/options/core_addons.php:45
+msgid "Support"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:21
+#, php-format
+msgid "Export %s Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:27
+msgid "Export Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:28
+msgid "Copy the contents and save it in a text file."
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:69
+#, php-format
+msgid "Import %s Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:75 ..
+#: /framework/includes/options/core_import_export.php:85
+msgid "Import Settings"
+msgstr ""
+
+#: ../framework/includes/options/core_import_export.php:76
+msgid "Paste the previously copied settings and click Import Settings."
+msgstr ""
+
+#: ../framework/includes/options/core_uninstall.php:25
+#, php-format
+msgid "Uninstall %s"
+msgstr ""
+
+#: ../framework/includes/options/core_uninstall.php:35
+msgid ""
+"<p>To uninstall this plugin, you can deactivate this plugin and then remove "
+"the following tables from your databse.</p>"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:31
+#, php-format
+msgid ""
+"<b>New version is available to download.</b> <br><a href=\"%s\" "
+"class=\"bold\">Click here</a> to download latest version."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:33
+#, php-format
+msgid "<b>You are using the latest version.</b> <br>Last checked on %s"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:61
+msgid "Envato Username is required."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:63
+msgid "Envato API Key is required."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:65
+msgid "Envato Item Purchase Code is required."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:75
+msgid "Could not verify purchase, please try again."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:99
+#, php-format
+msgid "%s ~ Verify Purchase"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:105 ../modules/functions/lang.
+#: php:196
+msgid "Envato Username"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:106
+msgid "Specify your envato username here"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:115 ../modules/functions/lang.
+#: php:197
+msgid "Envato API Key"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:116
+msgid ""
+"Specify your envato API Key here.<br>You can create or get your API Key from "
+"Envato Profile >> Settings >> API Keys."
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:125 ../modules/functions/lang.
+#: php:199
+msgid "Purchase Code"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:126
+msgid ""
+"Enter your item purchase code here.<br>You can download your purchase from "
+"Envato Profile >> Downloads Page"
+msgstr ""
+
+#: ../framework/includes/options/core_upgrades.php:135 ../modules/functions/lang.
+#: php:198
+msgid "Verify Purchase"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:7
+msgid "Quick Start Guide"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:9
+msgid "Support Fourm"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:12
+#, php-format
+msgid ""
+"Could not reset your license for this installation. <br><a target=\"_blank\" "
+"href=\"%s\">Click here</a> to create a support ticket."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:23 ..
+#: /framework/includes/options/core_welcome.php:35 ..
+#: /framework/includes/options/core_welcome.php:48
+msgid "Purchase code"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:27
+msgid "Verified & Active"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:28
+msgid ""
+"Are you sure?\n"
+"This will reset your license for this installation.\n"
+"You may use this license again on any installation."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:39
+msgid "Not Verified"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:52
+msgid "Local Server"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:52
+msgid ""
+"You will be asked to validate your purchase code to use this product on live "
+"server."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:64
+msgid "Contribute"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:68
+#, php-format
+msgid ""
+"<p>You can contribute to support further development and new features for "
+"this product.</p> <p><a target=\"_blank\" class=\"btn btn-danger\" "
+"href=\"%s\">Contribute</a></p>"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:73
+#, php-format
+msgid ""
+"You can download <a class=\"bold\" target=\"_blank\" href=\"%s\">Loco Translate "
+"WordPress Plugin (FREE)</a> to easily create language files within your "
+"WordPress dashboard without using Poedit software."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:83
+#, php-format
+msgid "%s Information"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:89
+msgid "Product Type"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:93
+#, php-format
+msgid "WordPress %s"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:99
+msgid "Product Name"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:109
+msgid "Product ID"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:119
+msgid "Installed Version"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:130
+msgid "License & Terms of use"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:134
+#, php-format
+msgid "<a target=\"_blank\" href=\"%s\">Click here</a> to view license and terms of use."
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:140
+msgid "Help & Support"
+msgstr ""
+
+#: ../framework/includes/options/core_welcome.php:150
+msgid "Localization"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:22 ..
+#: /framework/includes/sample-code/metabox_sample.php:16 ..
+#: /options/cjsupport_app_configuration.php:8 ../options/cjsupport_app_settings.
+#: php:8 ../options/cjsupport_app_sidebar.php:8 ../options/cjsupport_app_styles.
+#: php:8 ../options/cjsupport_app_ticket_priority.php:5 ..
+#: /options/cjsupport_emails_auto_close.php:8 ..
+#: /options/cjsupport_emails_new_comment.php:8 ..
+#: /options/cjsupport_emails_new_faq.php:8 ../options/cjsupport_emails_new_ticket.
+#: php:8 ../options/cjsupport_emails_new_user.php:8 ..
+#: /options/cjsupport_emails_ticket_status.php:8 ..
+#: /options/cjsupport_emails_ticket_transfer.php:8 ..
+#: /options/cjsupport_emails_unattended.php:8 ..
+#: /options/cjsupport_emails_update_comment.php:8 ..
+#: /options/cjsupport_emails_variables.php:8 ../options/cjsupport_envato.php:5
+msgid "Enable"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:22 ..
+#: /framework/includes/sample-code/metabox_sample.php:17 ..
+#: /options/cjsupport_app_configuration.php:9 ../options/cjsupport_app_settings.
+#: php:9 ../options/cjsupport_app_sidebar.php:9 ../options/cjsupport_app_styles.
+#: php:9 ../options/cjsupport_app_ticket_priority.php:6 ..
+#: /options/cjsupport_emails_auto_close.php:9 ..
+#: /options/cjsupport_emails_new_comment.php:9 ..
+#: /options/cjsupport_emails_new_faq.php:9 ../options/cjsupport_emails_new_ticket.
+#: php:9 ../options/cjsupport_emails_new_user.php:9 ..
+#: /options/cjsupport_emails_ticket_status.php:9 ..
+#: /options/cjsupport_emails_ticket_transfer.php:9 ..
+#: /options/cjsupport_emails_unattended.php:9 ..
+#: /options/cjsupport_emails_update_comment.php:9 ..
+#: /options/cjsupport_emails_variables.php:9 ../options/cjsupport_envato.php:6
+msgid "Disable"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:27
+msgid "Page Content"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:31
+msgid ""
+"<h2>We will be right back</h2> <p>We are making some changes to our website."
+"</p>"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:37 ..
+#: /framework/includes/sample-code/core_maintenance_mode.php:41
+msgid "Page Styles"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:47
+msgid "Document Background Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:57
+msgid "Document Text Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:67
+msgid "Document Link Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:77
+msgid "Panel Background Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:87
+msgid "Panel Text Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:97
+msgid "Panel Link Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:107
+msgid "Panel Border Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:117 ..
+#: /options/cjsupport_app_configuration.php:410 ../options/cjsupport_app_settings.
+#: php:449 ../options/cjsupport_app_sidebar.php:78 ..
+#: /options/cjsupport_app_styles.php:78 ../options/cjsupport_app_ticket_priority.
+#: php:95 ../options/cjsupport_choose_staff.php:40 ..
+#: /options/cjsupport_emails_auto_close.php:56 ..
+#: /options/cjsupport_emails_new_comment.php:76 ..
+#: /options/cjsupport_emails_new_faq.php:66 ..
+#: /options/cjsupport_emails_new_ticket.php:76 ..
+#: /options/cjsupport_emails_new_user.php:62 ..
+#: /options/cjsupport_emails_ticket_status.php:136 ..
+#: /options/cjsupport_emails_ticket_transfer.php:76 ..
+#: /options/cjsupport_emails_unattended.php:76 ..
+#: /options/cjsupport_emails_update_comment.php:76 ../options/cjsupport_envato.
+#: php:64 ../options/cjsupport_woocommerce.php:62
+msgid "Save Settings"
+msgstr ""
+
+#: ../framework/includes/sample-code/core_maintenance_mode.php:141
+#, php-format
+msgid "Maintenance mode is active. <a href=\"%s\">Manage Settings</a>"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:20 ..
+#: /options/cjsupport_app_configuration.php:13 ../options/cjsupport_app_settings.
+#: php:13 ../options/cjsupport_app_sidebar.php:13 ../options/cjsupport_app_styles.
+#: php:13 ../options/cjsupport_emails_variables.php:13 ..
+#: /options/cjsupport_envato.php:10 ../options/cjsupport_form_builder.php:16 ..
+#: /options/cjsupport_woocommerce.php:24 ../options/email-piping/add-route.php:6 .
+#: ./options/email-piping/edit-route.php:6
+msgid "Yes"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:21 ..
+#: /options/cjsupport_app_configuration.php:14 ../options/cjsupport_app_settings.
+#: php:14 ../options/cjsupport_app_sidebar.php:14 ../options/cjsupport_app_styles.
+#: php:14 ../options/cjsupport_emails_variables.php:14 ..
+#: /options/cjsupport_envato.php:11 ../options/cjsupport_form_builder.php:17 ..
+#: /options/cjsupport_woocommerce.php:25 ../options/email-piping/add-route.php:7 .
+#: ./options/email-piping/edit-route.php:7
+msgid "No"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:26 ..
+#: /modules/functions/docs-faqs-metabox.php:17
+msgid "Slide Options"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:33
+msgid "Slide type"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:38
+msgid "Image - (Must Set Featured Image)"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:39
+msgid "Video - (Must Specify Video URL)"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:40
+msgid "Contact Map - (Must Specify Map URL)"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:44
+msgid "Main Heading"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:50
+msgid "Sub Heading"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:57 ..
+#: /modules/functions/docs-faqs-metabox.php:25
+msgid "Feel free to use any shortcodes"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:62
+msgid "Video URL"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:63
+msgid "Require for video slides"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:68
+msgid "Map URL"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:69
+msgid "Require for contact map slides"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:74
+msgid "Animation"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:75
+msgid ""
+"Animation will be applied to all <u>valid</u> html elements, based on slide "
+"layout."
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:85
+msgid "Animation Delay"
+msgstr ""
+
+#: ../framework/includes/sample-code/metabox_sample.php:86
+msgid "Specify delay in miliseconds. <code>e.g. 250</code> (1000ms = 1sec)"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:11
+msgid "This is text that goes here.."
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:21
+msgid "HTML Form Fields"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:27
+msgid "Info Full Label"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:31
+msgid "Info Full default text"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:37
+msgid "Info Label"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:41
+msgid "Info default text"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:47
+msgid "Textbox"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:57 ..
+#: /framework/includes/sample-code/shortcode_sample.php:19 ..
+#: /framework/includes/sample-code/shortcode_sample.php:54
+msgid "Number"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:67
+msgid "Textarea"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:77
+msgid "Checkbox"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:87
+msgid "Checkbox Inline"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:97 ..
+#: /options/cjsupport_form_builder.php:27
+msgid "Radio"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:107
+msgid "Radio Inline"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:117 ..
+#: /options/cjsupport_form_builder.php:24
+msgid "Dropdown"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:127
+msgid "MultiSelect"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:141
+msgid "WordPress Fields"
+msgstr ""
+
+#: ../framework/includes/sample-code/options_form_fields.php:251
+msgid "Helper Form Fields"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:49
+msgid "Heading Text"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:50
+msgid ""
+"Peragraph Text here: Lorem ipsum Magna ut est anim velit voluptate aliqua in "
+"commodo cillum sunt nostrud labore consectetur."
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:51
+msgid "Textbox Input"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:52
+msgid "Textarea Input"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:53
+msgid "Select Options"
+msgstr ""
+
+#: ../framework/includes/sample-code/shortcode_sample.php:55
+msgid "Pick Color"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:4
+msgid "Social Media (cjsupport)"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:5
+msgid "Display social media links with or without icons"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:13
+msgid "Title"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:14 ..
+#: /framework/includes/sample-code/widget_sample.php:36
+msgid "Specify widget title here."
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:23
+msgid "facebook"
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:24
+msgid "Specify widget facebook here."
+msgstr ""
+
+#: ../framework/includes/sample-code/widget_sample.php:35
+msgid "sub_title"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/dynamic_sidebar_setup.
+#: php:61 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/dynamic_sidebar_setup.php:196
+msgid "Choose Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/dynamic_sidebar_setup.
+#: php:86
+msgid "Active Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:33 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:69
+msgid "Sidebar Name is required."
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:93 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:129
+msgid "Register New Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:96 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:132 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:160
+msgid "Sidebar ID"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:97 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:133 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:161
+msgid "Sidebar Name"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:98 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:134 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:162 ../options/custom-fields/fields-
+#: list.php:31
+msgid "Description"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:99 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:135 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:163
+msgid "Class"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:100 ../framework/includes/sample-code/dynamic-sidebar-
+#: setup/theme_dynamic_sidebars.php:136 ../framework/includes/sample-code/dynamic-
+#: sidebar-setup/theme_dynamic_sidebars.php:164 ../options/cjsupport_manage_staff.
+#: php:80 ../options/email-piping/mailboxes.php:17
+msgid "Actions"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:103
+msgid "Generated Automatically"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:108
+msgid "Add New Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:109 ../modules/functions/lang.php:108
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:143
+msgid "Edit Sidebar"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:156
+msgid "Registered Sidebars"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:175
+msgid "Edit"
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:176 ../modules/functions/lang.php:95 ../options/custom-fields/fields-list.
+#: php:50 ../options/email-piping/mailboxes.php:30
+msgid ""
+"Are you sure?\n"
+"This cannot be undone."
+msgstr ""
+
+#: ../framework/includes/sample-code/dynamic-sidebar-setup/theme_dynamic_sidebars.
+#: php:176 ../options/custom-fields/fields-list.php:50 ../options/email-
+#: piping/mailboxes.php:30
+msgid "Delete"
+msgstr ""
+
+#: ../framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:21 .
+#: ./framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:33
+msgid "Select Product"
+msgstr ""
+
+#: ../framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:39 .
+#: ./framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:25
+msgid "CSSJockey Shortcode Generator"
+msgstr ""
+
+#: ../framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:47 .
+#: ./framework/includes/shortcode-generator/cj_shortcode_generator_panel.php:55
+msgid "Select a shortcode to configure settings and insert."
+msgstr ""
+
+#: ../framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:73
+msgid "Select product and shortcode."
+msgstr ""
+
+#: ../framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:91
+msgid "Content goes here.."
+msgstr ""
+
+#: ../framework/includes/shortcode-generator-backup/cj_shortcode_generator_panel.
+#: php:124
+msgid "No shortcodes available."
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:49
+msgid "Please enter purchase code for this product."
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:99
+#, php-format
+msgid ""
+"Verify purchase code to enable automatic upgrades and use this %s on this "
+"installation."
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:104
+msgid "Verify & Activate License"
+msgstr ""
+
+#: ../framework/includes/upgrades/init.php:105
+#, php-format
+msgid "<a target=\"_blank\" href=\"%s\">Where can I find my Purchase Code?</a>"
+msgstr ""
+
+#: ../modules/functions/autoclose_tickets.php:69 ..
+#: /modules/functions/autoclose_tickets.php:79
+#, php-format
+msgid "Unattended Ticket Alert @ %s"
+msgstr ""
+
+#: ../modules/functions/emailpipe.php:154 ../modules/functions/emailpipe.php:161 .
+#: ./modules/functions/emailpipe.php:259 ../modules/functions/emailpipe.php:266 ..
+#: /modules/functions/app/ticket_comment.php:72
+msgid "Attachments:"
+msgstr ""
+
+#: ../modules/functions/emailpipe.php:355 ..
+#: /modules/functions/app/create_ticket_client.php:183
+msgid "<p>Dear Admin,</p>"
+msgstr ""
+
+#: ../modules/functions/emailpipe.php:356 ..
+#: /modules/functions/app/create_ticket_client.php:184
+msgid "<p>A new user has created a support ticket via email.</p>"
+msgstr ""
+
+#: ../modules/functions/emailpipe.php:357 ..
+#: /modules/functions/app/create_ticket_client.php:185
+#, php-format
+msgid "<p><a href=\"%s\">Click here</a> to view tickets.</p>"
+msgstr ""
+
+#: ../modules/functions/emailpipe.php:358 ..
+#: /modules/functions/app/create_ticket_client.php:186
+#, php-format
+msgid "<p><a href=\"%s\">Disable</a> these notifications.</p>"
+msgstr ""
+
+#: ../modules/functions/emailpipe.php:364 ..
+#: /modules/functions/app/create_ticket_client.php:192
+#, php-format
+msgid "New User Registration: %s"
+msgstr ""
+
+#: ../modules/functions/lang.php:8
+msgid "Edit content"
+msgstr ""
+
+#: ../modules/functions/lang.php:110
+msgid "Search Tickets by ID or Keywords"
+msgstr ""
+
+#: ../modules/functions/lang.php:111
+msgid "My Tickets"
+msgstr ""
+
+#: ../modules/functions/lang.php:112
+msgid "Ticket ID:"
+msgstr ""
+
+#: ../modules/functions/lang.php:116
+#, php-format
+msgid "Welcome, %s"
+msgstr ""
+
+#: ../modules/functions/lang.php:116
+msgid "Welcome, Guest"
+msgstr ""
+
+#: ../modules/functions/lang.php:118
+msgid "All Open Tickets"
+msgstr ""
+
+#: ../modules/functions/lang.php:119 ../modules/functions/lang.php:127
+msgid "Closed Tickets"
+msgstr ""
+
+#: ../modules/functions/lang.php:120
+msgid "Quick Links"
+msgstr ""
+
+#: ../modules/functions/lang.php:121 ../modules/functions/lang.php:205 ..
+#: /modules/functions/plugin_setup.php:338 ../modules/functions/plugin_setup.php:
+#: 344 ../modules/functions/app/tickets.php:90
+msgid "Awaiting Response"
+msgstr ""
+
+#: ../modules/functions/lang.php:122 ../modules/functions/app/tickets.php:88
+msgid "Starred Tickets"
+msgstr ""
+
+#: ../modules/functions/lang.php:123
+msgid "Private Tickets"
+msgstr ""
+
+#: ../modules/functions/lang.php:124 ../modules/functions/app/tickets.php:92 ..
+#: /options/cjsupport_app_configuration.php:168 ../options/cjsupport_app_settings.
+#: php:88
+msgid "Public Tickets"
+msgstr ""
+
+#: ../modules/functions/lang.php:125 ../modules/functions/lang.php:162
+msgid "Private Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:126
+msgid "Public Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:128
+msgid "Employees"
+msgstr ""
+
+#: ../modules/functions/lang.php:130
+msgid "Update Profile"
+msgstr ""
+
+#: ../modules/functions/lang.php:134
+msgid "Change Password"
+msgstr ""
+
+#: ../modules/functions/lang.php:135
+msgid "Update Profile Picture"
+msgstr ""
+
+#: ../modules/functions/lang.php:136
+msgid "Search client account"
+msgstr ""
+
+#: ../modules/functions/lang.php:137
+msgid "Client Email Address <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:138
+msgid ""
+"Search for a client or specify a valid email address to create a ticket on "
+"client's behalf."
+msgstr ""
+
+#: ../modules/functions/lang.php:139
+msgid "Submit New Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:140
+msgid "Create New Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:141
+msgid "This ticket is for: <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:142
+msgid "Select Department: <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:143
+msgid "Subject <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:144
+msgid "URL (optional)"
+msgstr ""
+
+#: ../modules/functions/lang.php:145
+msgid "Your Question/Problem: <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:146
+msgid "Your Reply: <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:147
+msgid "Attach a file"
+msgstr ""
+
+#: ../modules/functions/lang.php:148
+#, php-format
+msgid "Feel free to add a %s up to 5MB in size."
+msgstr ""
+
+#: ../modules/functions/lang.php:149
+msgid "Submit Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:150
+msgid "http://"
+msgstr ""
+
+#: ../modules/functions/lang.php:151 ../modules/functions/app/ticket.php:168
+msgid "Open"
+msgstr ""
+
+#: ../modules/functions/lang.php:152
+msgid "Closed"
+msgstr ""
+
+#: ../modules/functions/lang.php:153
+msgid "Status:"
+msgstr ""
+
+#: ../modules/functions/lang.php:154
+msgid "Submitted By:"
+msgstr ""
+
+#: ../modules/functions/lang.php:155
+msgid "Department:"
+msgstr ""
+
+#: ../modules/functions/lang.php:156
+msgid "Product:"
+msgstr ""
+
+#: ../modules/functions/lang.php:157
+msgid "Assigned to:"
+msgstr ""
+
+#: ../modules/functions/lang.php:158
+msgid "Close Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:159
+msgid "Open Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:160
+msgid "Add to Starred"
+msgstr ""
+
+#: ../modules/functions/lang.php:161
+msgid "Remove from Starred"
+msgstr ""
+
+#: ../modules/functions/lang.php:163
+msgid "Ticket Visibility"
+msgstr ""
+
+#: ../modules/functions/lang.php:164
+msgid "View"
+msgstr ""
+
+#: ../modules/functions/lang.php:165 ../modules/functions/app/search_tickets.php:
+#: 128
+msgid "No tickets found."
+msgstr ""
+
+#: ../modules/functions/lang.php:166
+msgid "Ticket Information"
+msgstr ""
+
+#: ../modules/functions/lang.php:167
+msgid "Additional Information"
+msgstr ""
+
+#: ../modules/functions/lang.php:168
+msgid "Your Reply/Answer <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:169
+msgid "Mark this ticket as closed/resolved"
+msgstr ""
+
+#: ../modules/functions/lang.php:170
+msgid "Post Response"
+msgstr ""
+
+#: ../modules/functions/lang.php:171
+msgid "Show previous comments"
+msgstr ""
+
+#: ../modules/functions/lang.php:172
+msgid "Select support staff"
+msgstr ""
+
+#: ../modules/functions/lang.php:173
+msgid "Select Department <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:174
+msgid "Select Product <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:175
+msgid "Transfer Ticket"
+msgstr ""
+
+#: ../modules/functions/lang.php:177
+msgid "Internal Notes <span class=\"req\">*</span>"
+msgstr ""
+
+#: ../modules/functions/lang.php:178
+msgid " ~ Internal Note"
+msgstr ""
+
+#: ../modules/functions/lang.php:179 ../modules/functions/lang.php:180
+msgid "Edit Comment"
+msgstr ""
+
+#: ../modules/functions/lang.php:181
+msgid "Create FAQ"
+msgstr ""
+
+#: ../modules/functions/lang.php:182
+msgid "Question"
+msgstr ""
+
+#: ../modules/functions/lang.php:183
+msgid "Answer"
+msgstr ""
+
+#: ../modules/functions/lang.php:184
+msgid "Submit"
+msgstr ""
+
+#: ../modules/functions/lang.php:185
+msgid "Choose a product"
+msgstr ""
+
+#: ../modules/functions/lang.php:186 ../options/cjsupport_app_configuration.php:
+#: 158 ../options/cjsupport_app_settings.php:78
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../modules/functions/lang.php:187
+msgid "Please select a product"
+msgstr ""
+
+#: ../modules/functions/lang.php:188
+msgid "View all questions"
+msgstr ""
+
+#: ../modules/functions/lang.php:189
+msgid "First Name"
+msgstr ""
+
+#: ../modules/functions/lang.php:190
+msgid "Last Name"
+msgstr ""
+
+#: ../modules/functions/lang.php:191
+msgid "Email address"
+msgstr ""
+
+#: ../modules/functions/lang.php:192
+msgid "Refresh"
+msgstr ""
+
+#: ../modules/functions/lang.php:194
+msgid "Ticket is closed. You may reopen this ticket to add new comments."
+msgstr ""
+
+#: ../modules/functions/lang.php:195
+msgid "Search tickets..."
+msgstr ""
+
+#: ../modules/functions/lang.php:200
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%s\">Click here</a> for instructions to find your "
+"purchase code."
+msgstr ""
+
+#: ../modules/functions/lang.php:207
+msgid "Choose files"
+msgstr ""
+
+#: ../modules/functions/lang.php:208
+msgid "Attachments"
+msgstr ""
+
+#: ../modules/functions/lang.php:209
+msgid "Home"
+msgstr ""
+
+#: ../modules/functions/lang.php:211
+msgid "Priority"
+msgstr ""
+
+#: ../modules/functions/lang.php:213
+msgid "Update Ticket Priority"
+msgstr ""
+
+#: ../modules/functions/lang.php:215
+msgid "Rate this response: "
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:241
+msgctxt "Status General Name"
+msgid "Closed"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:242
+#, php-format
+msgid "Closed (%s)"
+msgid_plural "Closed (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../modules/functions/plugin_setup.php:288
+msgid "No comments"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:290
+msgid "1 Comment"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:292
+#, php-format
+msgid "%d Comments"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:321
+#, php-format
+msgid "<i>last comment</i> <b>%s</b> <i>from</i> <b>%s</b>"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:353 ..
+#: /options/cjsupport_app_configuration.php:19 ../options/cjsupport_app_settings.
+#: php:19 ../options/cjsupport_app_sidebar.php:19 ../options/cjsupport_app_styles.
+#: php:19
+msgid "Private"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:355 ..
+#: /options/cjsupport_app_configuration.php:18 ../options/cjsupport_app_settings.
+#: php:18 ../options/cjsupport_app_sidebar.php:18 ../options/cjsupport_app_styles.
+#: php:18
+msgid "Public"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:359
+#, php-format
+msgid "in <b>%s</b> for <b>%s</b>"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:374 ../modules/functions/plugin_setup.
+#: php:391
+#, php-format
+msgid "Created by: <b>%s</b>, "
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:375
+#, php-format
+msgid "Assigned to: <b>%s</b>"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:376 ../modules/functions/plugin_setup.
+#: php:393
+#, php-format
+msgid "<span class=\"hidden-md\"><i>in</i> <b>%s</b></span> "
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:385 ../modules/functions/app/ticket.php:
+#: 149
+msgid "System"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:392
+#, php-format
+msgid "Assigned to: <b>%s</b>, "
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:394
+#, php-format
+msgid "in <b>%s</b>"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:398
+#, php-format
+msgid "<i>closed by</i> <b>%s</b>"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:667
+#, php-format
+msgid ""
+"Support page is not specified. <a href=\"%s\">Click here</a> to specify the "
+"support page for the app."
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:673
+#, php-format
+msgid "You must <a href=\"%s\">select and manage</a> support staff."
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:679
+#, php-format
+msgid "You must specify <a href=\"%s\">departments</a>."
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:685
+#, php-format
+msgid "You must specify <a href=\"%s\">products</a>."
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:690
+#, php-format
+msgid "<strong>%s</strong><br>"
+msgstr ""
+
+#: ../modules/functions/plugin_setup.php:772 ../options/cjsupport_form_builder.
+#: php:7
+msgid "*"
+msgstr ""
+
+#: ../modules/functions/app/canned_responses.php:27
+msgid "No canned resopnses found."
+msgstr ""
+
+#: ../modules/functions/app/canned_responses_add_new.php:25
+msgid "Name already exist, please choose a unique name."
+msgstr ""
+
+#: ../modules/functions/app/create_faq.php:7
+msgid "Please specify a question"
+msgstr ""
+
+#: ../modules/functions/app/create_faq.php:10
+msgid "Please specify an answer"
+msgstr ""
+
+#: ../modules/functions/app/create_faq.php:29
+msgid "Question published successfully."
+msgstr ""
+
+#: ../modules/functions/app/create_faq.php:29
+msgid "Question submitted for review."
+msgstr ""
+
+#: ../modules/functions/app/create_ticket.php:12 ..
+#: /modules/functions/app/create_ticket.php:18 ..
+#: /modules/functions/app/create_ticket_client.php:36 ..
+#: /modules/functions/app/create_ticket_client.php:42 ../options/custom-
+#: fields/fields-add-new.php:15 ../options/custom-fields/fields-edit.php:21
+msgid "Missing required fields"
+msgstr ""
+
+#: ../modules/functions/app/find_client.php:26
+msgid ""
+"No client account found, specify a valid email address to create an account "
+"and ticket on client\\s behalf."
+msgstr ""
+
+#: ../modules/functions/app/find_client.php:29
+msgid "Email address already registered."
+msgstr ""
+
+#: ../modules/functions/app/find_client.php:32
+msgid "A new account will be created with this email address."
+msgstr ""
+
+#: ../modules/functions/app/get_faqs.php:13
+#, php-format
+msgid "FAQs ~ %s"
+msgstr ""
+
+#: ../modules/functions/app/get_faqs.php:42 ..
+#: /modules/functions/app/get_faqs_by_product.php:48
+msgid "No faqs found."
+msgstr ""
+
+#: ../modules/functions/app/home.php:20
+msgid "Login"
+msgstr ""
+
+#: ../modules/functions/app/home.php:21
+msgid "Register"
+msgstr ""
+
+#: ../modules/functions/app/save_comment.php:7 ..
+#: /modules/functions/app/ticket_comment.php:12 ..
+#: /modules/functions/app/ticket_transfer.php:11
+msgid "Please specify your response."
+msgstr ""
+
+#: ../modules/functions/app/search_tickets.php:5
+#, php-format
+msgid "Search Results for <strong>\"%s\"</strong>"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:18
+msgid "NA"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:119
+msgid "Reference Url"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:132
+msgid ""
+"<br><span class=\"label label-sm inline-block margin-5-top label-"
+"success\">PURCHASED<span>"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:132
+msgid ""
+"<br><span class=\"label label-sm inline-block margin-5-top label-danger\">NOT "
+"PURCHASED<span>"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:145
+msgid ""
+"<br><span class=\"label label-sm inline-block margin-5-top label-"
+"success\">VERIFIED<span>"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:145
+msgid ""
+"<br><span class=\"label label-sm inline-block margin-5-top label-danger\">NOT "
+"VERIFIED<span>"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:168
+#, php-format
+msgid "Closed by %s"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:177
+msgid "Mark Public"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:177
+msgid "Mark as Private"
+msgstr ""
+
+#: ../modules/functions/app/ticket.php:306
+msgid "<span class=\"red\">(Internal Note)</span>"
+msgstr ""
+
+#: ../modules/functions/app/ticket_ratings.php:22
+msgid "Thank you for your rating on this comment."
+msgstr ""
+
+#: ../modules/functions/app/ticket_ratings.php:33
+msgid "Your rating has been updated for this comment."
+msgstr ""
+
+#: ../modules/functions/app/ticket_transfer.php:14
+msgid "Please assign a department."
+msgstr ""
+
+#: ../modules/functions/app/ticket_transfer.php:17
+msgid "Please assign a product."
+msgstr ""
+
+#: ../modules/functions/app/ticket_transfer.php:50
+#, php-format
+msgid "Ticket transferred to %s for %s."
+msgstr ""
+
+#: ../modules/functions/app/tickets.php:84
+#, php-format
+msgid "All Open Tickets (%s)"
+msgstr ""
+
+#: ../modules/functions/app/tickets.php:86
+#, php-format
+msgid "Closed Tickets (%s)"
+msgstr ""
+
+#: ../modules/functions/app/tickets.php:97 ../modules/functions/app/tickets.php:101
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../modules/functions/app/tickets.php:105
+#, php-format
+msgid "Tickets linked to: %s"
+msgstr ""
+
+#: ../modules/functions/app/tickets.php:183
+msgid "No tickets found"
+msgstr ""
+
+#: ../modules/functions/app/tickets.php:184
+msgid "No tickets found matched your query."
+msgstr ""
+
+#: ../modules/functions/app/tickets_public.php:35
+#, php-format
+msgid "All Public Tickets (%s)"
+msgstr ""
+
+#: ../modules/functions/app/tickets_response_required.php:68
+#, php-format
+msgid "Awaiting Response (%s)"
+msgstr ""
+
+#: ../modules/functions/app/verify_envato.php:13
+msgid "Please specify your purchase code."
+msgstr ""
+
+#: ../modules/functions/app/verify_envato.php:27
+msgid "Invalid purchase code, please check and try again."
+msgstr ""
+
+#: ../modules/functions/assistant/messages.php:99
+msgid "Ok, lets get started"
+msgstr ""
+
+#: ../modules/shortcodes/supportezzy-app.php:12 ../modules/shortcodes/supportezzy-
+#: faqs.php:12
+msgid "This shortcode will run the app within a page or post."
+msgstr ""
+
+#: ../modules/shortcodes/supportezzy-app.php:20
+msgid "Height"
+msgstr ""
+
+#: ../modules/shortcodes/supportezzy-app.php:20
+msgid "Specify height in pixels. e.g. 500px"
+msgstr ""
+
+#: ../modules/shortcodes/supportezzy-faqs.php:20
+msgid "Border Color"
+msgstr ""
+
+#: ../modules/shortcodes/supportezzy-faqs.php:20
+msgid "Specify border color"
+msgstr ""
+
+#: ../modules/shortcodes/html/faqs.php:55
+msgid "Noting found."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:4 ../options/cjsupport_app_settings.
+#: php:4 ../options/cjsupport_app_sidebar.php:4 ../options/cjsupport_app_styles.
+#: php:4 ../options/cjsupport_emails_variables.php:4
+msgid "<h2>Login or Register</h2>"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:5 ../options/cjsupport_app_settings.
+#: php:5 ../options/cjsupport_app_sidebar.php:5 ../options/cjsupport_app_styles.
+#: php:5 ../options/cjsupport_emails_variables.php:5
+#, php-format
+msgid ""
+"<p>You must %%login_link%% or %%register_link%% to submit a support ticket."
+"</p>"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:29 ..
+#: /options/cjsupport_app_settings.php:29 ../options/cjsupport_app_sidebar.php:29 
+#: ../options/cjsupport_app_styles.php:29
+msgid ""
+"<strong>Web Replies</strong>: Enable new ticket creation and replies via web "
+"only."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:30 ..
+#: /options/cjsupport_app_settings.php:30 ../options/cjsupport_app_sidebar.php:30 
+#: ../options/cjsupport_app_styles.php:30
+msgid ""
+"<strong>Email Piping</strong>: Enable new ticket creation and replies via "
+"both web and emails."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:42
+msgid "Page Setup"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:48 ..
+#: /options/cjsupport_app_settings.php:48
+msgid "Support App Page"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:49 ..
+#: /options/cjsupport_app_settings.php:49
+msgid ""
+"<p>Create a page for support and select the same in this dropdown.</p><p>To "
+"set support as your homepage, select this page as front page under Settings "
+">> Reading.</p>"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:58 ..
+#: /options/cjsupport_app_settings.php:68
+msgid "Support App Layout"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:68 ..
+#: /options/cjsupport_app_settings.php:269
+msgid "Login Url"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:69 ..
+#: /options/cjsupport_app_configuration.php:79 ../options/cjsupport_app_settings.
+#: php:270 ../options/cjsupport_app_settings.php:280
+msgid "You can specify a custom Url if you use any plugin for login or registration."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:78 ..
+#: /options/cjsupport_app_settings.php:279
+msgid "Register Url"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:88 ..
+#: /options/cjsupport_app_settings.php:289
+msgid "Edit Profile Url"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:89 ..
+#: /options/cjsupport_app_settings.php:290
+msgid "You can specify a custom Url for user edit profile page."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:102 ..
+#: /options/cjsupport_app_settings.php:142
+msgid "Company Settings"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:108 ..
+#: /options/cjsupport_app_settings.php:148
+msgid "Company Name"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:109 ..
+#: /options/cjsupport_app_settings.php:149
+msgid ""
+"Your company name shows up in the header if logo image is not provided, "
+"notification emails and more. Be sure to put the right name here."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:118 ..
+#: /options/cjsupport_app_settings.php:158
+msgid "Company email"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:119 ..
+#: /options/cjsupport_app_settings.php:159
+msgid ""
+"Domain name used in this email will be parsed to create <b><span "
+"class=\"red\">no-reply</span>@DOMAIN.TLD</b>. <br><strong>Web Replies</strong>:"
+" All emails will be sent via no-reply@domain.com emails. <br><strong>Email "
+"Piping</strong>: All emails will be sent and received by this email address "
+"with additional information."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:128 ..
+#: /options/cjsupport_app_settings.php:168
+msgid "Company logo"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:129 ..
+#: /options/cjsupport_app_settings.php:169
+msgid ""
+"Upload your company logo. If you do not upload any image file here, your "
+"company logo text will be displayed instead."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:142
+msgid "Components Settings"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:148 ..
+#: /options/cjsupport_app_settings.php:58
+msgid "Communication"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:159 ..
+#: /options/cjsupport_app_settings.php:79
+msgid "You can choose to enable or disable FAQs for the support portal."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:169 ..
+#: /options/cjsupport_app_settings.php:89
+msgid "You can choose to enable or disable Public Tickets for the support portal."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:178
+msgid "Ticket Ratings"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:179
+msgid "You can choose to enable or disable ticket ratings."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:188 ..
+#: /options/cjsupport_app_settings.php:98
+msgid "Hide Departments"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:189 ..
+#: /options/cjsupport_app_settings.php:99
+msgid ""
+"Choose Yes, If you do not want a client to choose a department. Tickets will "
+"be distributed on random basis."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:198 ..
+#: /options/cjsupport_app_settings.php:108
+msgid "Hide products"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:199 ..
+#: /options/cjsupport_app_settings.php:109
+msgid ""
+"Choose Yes, If you do not want a client to choose a product. Tickets will be "
+"distributed on random basis."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:208 ..
+#: /options/cjsupport_app_settings.php:118
+msgid "Allowed file types"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:209 ..
+#: /options/cjsupport_app_settings.php:119
+msgid ""
+"Please specify file extensions for allowed file types.<br>example: "
+"jpg|png|gif|pdf|txt|zip"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:218 ..
+#: /options/cjsupport_app_settings.php:128
+msgid "Ticket & Comment Textbox"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:219 ..
+#: /options/cjsupport_app_settings.php:129
+msgid ""
+"You can choose to use WYSIWYG editor or normal textarea for user input on "
+"all screens."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:232 ..
+#: /options/cjsupport_app_settings.php:222
+msgid "Ticket Options"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:238 ..
+#: /options/cjsupport_app_settings.php:228
+msgid "Default Ticket Visibility"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:239 ..
+#: /options/cjsupport_app_settings.php:229
+msgid "Choose default ticket visibility for new tickets."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:248 ..
+#: /options/cjsupport_app_settings.php:238
+msgid "Treat Admin as Agent"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:249 ..
+#: /options/cjsupport_app_settings.php:239
+msgid ""
+"You can restrict admin rights and treat all admins as agents if present in "
+"support staff."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:258 ..
+#: /options/cjsupport_app_settings.php:248
+msgid "Auto close tickets after"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:259 ..
+#: /options/cjsupport_app_settings.php:249
+msgid ""
+"Specify number of days to auto close tickets if there is no response from "
+"the client.<br>Set this to 0 to disable auto close."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:269
+msgid "Maximum response time"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:270
+msgid ""
+"Specify maximum number of hours for an agent to respond to a ticket."
+"<br>Agent will be notified via email about the unattended tickets.<br>Admin "
+"will receive an alert if ticket stays unattended beyond maximum number of "
+"hours specified.<br>You can set this to 0 to disable these notifications."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:284 ..
+#: /options/cjsupport_app_settings.php:353
+msgid "Extended Permissions"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:290 ..
+#: /options/cjsupport_app_settings.php:359
+msgid "Can clients close their tickets?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:300 ..
+#: /options/cjsupport_app_settings.php:369
+msgid "Can clients edit their comments?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:310 ..
+#: /options/cjsupport_app_settings.php:379
+msgid "Can agents close their tickets?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:320 ..
+#: /options/cjsupport_app_settings.php:389
+msgid "Can agents edit their comments?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:330 ..
+#: /options/cjsupport_app_settings.php:399
+msgid "Can agents create FAQs?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:340
+msgid "Can agents transfer tickets?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:350
+msgid "Can agents change ticket priority?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:360
+msgid "Allow agents to reply via email?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:361
+msgid ""
+"PHP Imap extension only works when someone visit the website.<br>If you are "
+"using the support app as a standalone site, you should not enable this as "
+"the emails will not be parsed automatically."
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:374
+msgid "Admin Notifications"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:380
+msgid "New User Notifications?"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:394 ..
+#: /options/cjsupport_app_settings.php:433
+msgid "Debugging"
+msgstr ""
+
+#: ../options/cjsupport_app_configuration.php:400 ..
+#: /options/cjsupport_app_settings.php:439
+msgid "Enable Debugging"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:42
+msgid "Application Settings"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:182
+msgid "Customize Colors"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:188 ../options/cjsupport_app_styles.php:48
+msgid "Header Background Color"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:189 ../options/cjsupport_app_styles.php:49
+msgid "Choose background color for the header"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:198 ../options/cjsupport_app_styles.php:58
+msgid "Header Text Color"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:199 ../options/cjsupport_app_styles.php:59
+msgid "Choose text color for the header"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:208 ../options/cjsupport_app_styles.php:68
+msgid "Logo Color"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:209 ../options/cjsupport_app_styles.php:69
+msgid "Choose color for the logo in the header bar."
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:263
+msgid "Authentication Options"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:299
+msgid "Logout Url"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:300
+msgid "You can specify a custom Url for logout link."
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:309 ../options/cjsupport_app_sidebar.php:
+#: 48
+msgid "Login Message or Shortcodes"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:310 ../options/cjsupport_app_sidebar.php:
+#: 49
+msgid ""
+"You can specify any content, links or shortcodes to configure the login "
+"message displayed."
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:323 ../options/cjsupport_app_sidebar.php:
+#: 42
+msgid "Sidebar Content"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:329 ../options/cjsupport_app_sidebar.php:
+#: 58
+msgid "For Agents & Admins"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:330 ../options/cjsupport_app_sidebar.php:
+#: 59
+msgid ""
+"This content will be displyed to logged in Agents & Admins in the left "
+"sidebar."
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:339 ../options/cjsupport_app_sidebar.php:
+#: 68
+msgid "For Clients"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:340 ../options/cjsupport_app_sidebar.php:
+#: 69
+msgid "This content will be displyed to logged in Clients in the left sidebar."
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:413
+msgid "Notifications"
+msgstr ""
+
+#: ../options/cjsupport_app_settings.php:419
+msgid "Enable New User Notifications?"
+msgstr ""
+
+#: ../options/cjsupport_app_styles.php:42
+msgid "App Styles & Colors"
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:17
+msgid "Ticket Priority Settings"
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:24
+msgid "You can choose to enable or disable ticket priority system for this app."
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:37
+msgid ""
+"Here you can manage ticket priority labels and response times based on "
+"ticket priority."
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:43
+msgid "Low Priority"
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:49 ..
+#: /options/cjsupport_app_ticket_priority.php:62 ..
+#: /options/cjsupport_app_ticket_priority.php:75 ..
+#: /options/cjsupport_app_ticket_priority.php:88
+msgid "Label (will be used at different locations)"
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:50 ..
+#: /options/cjsupport_app_ticket_priority.php:63 ..
+#: /options/cjsupport_app_ticket_priority.php:76 ..
+#: /options/cjsupport_app_ticket_priority.php:89
+msgid "Response Time (Hours)"
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:56
+msgid "Normal Priority"
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:69
+msgid "High Priority"
+msgstr ""
+
+#: ../options/cjsupport_app_ticket_priority.php:82
+msgid "Urgent Priority"
+msgstr ""
+
+#: ../options/cjsupport_choose_staff.php:14
+msgid "Choose Support Staff"
+msgstr ""
+
+#: ../options/cjsupport_choose_staff.php:20
+msgid "Support Staff"
+msgstr ""
+
+#: ../options/cjsupport_choose_staff.php:21
+msgid "<p>Select users who will act as a support agents.</p>"
+msgstr ""
+
+#: ../options/cjsupport_choose_staff.php:30
+msgid "Fallback Support User"
+msgstr ""
+
+#: ../options/cjsupport_choose_staff.php:31
+msgid ""
+"Select fallback user to assign a tickt where system does not find agent for "
+"products and departments."
+msgstr ""
+
+#: ../options/cjsupport_choose_staff.php:50
+msgid "Manage Staff"
+msgstr ""
+
+#: ../options/cjsupport_choose_staff.php:54
+#, php-format
+msgid ""
+"<a class=\"btn btn-success\" href=\"%s\">Assign Departments & Products "
+"&rightarrow;</a>"
+msgstr ""
+
+#: ../options/cjsupport_email_routes.php:7
+#, php-format
+msgid ""
+"Email piping is not enabled. <a href=\"%s\">Click here</a> to enable email "
+"piping."
+msgstr ""
+
+#: ../options/cjsupport_email_routes.php:31
+msgid ""
+"<srrong>Error:</srrong><br>PHP Imap extension not found on your server, "
+"please contact your hosting provider to get it installed.<br>Refresh or "
+"visit this page again once installed."
+msgstr ""
+
+#: ../options/cjsupport_emails_auto_close.php:20
+msgid "Auto Close Notification Message"
+msgstr ""
+
+#: ../options/cjsupport_emails_auto_close.php:26
+msgid "Auto close notifications"
+msgstr ""
+
+#: ../options/cjsupport_emails_auto_close.php:36
+msgid "Subject"
+msgstr ""
+
+#: ../options/cjsupport_emails_auto_close.php:46
+msgid "Message to client"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_comment.php:20
+msgid "New Comment Email Messages"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_comment.php:30
+msgid ""
+"<p>Following emails will be sent to the agent and client when a new comment "
+"is submitted on a ticket.</p>"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_comment.php:36 ..
+#: /options/cjsupport_emails_new_ticket.php:36 ..
+#: /options/cjsupport_emails_ticket_status.php:46 ..
+#: /options/cjsupport_emails_ticket_status.php:96 ..
+#: /options/cjsupport_emails_ticket_transfer.php:36 ..
+#: /options/cjsupport_emails_unattended.php:36 ..
+#: /options/cjsupport_emails_update_comment.php:36
+msgid "Subject for Agent"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_comment.php:46 ..
+#: /options/cjsupport_emails_new_ticket.php:46 ..
+#: /options/cjsupport_emails_ticket_status.php:56 ..
+#: /options/cjsupport_emails_ticket_status.php:106 ..
+#: /options/cjsupport_emails_ticket_transfer.php:46 ..
+#: /options/cjsupport_emails_unattended.php:46 ..
+#: /options/cjsupport_emails_update_comment.php:46
+msgid "Message for Agent"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_comment.php:56 ..
+#: /options/cjsupport_emails_new_ticket.php:56 ..
+#: /options/cjsupport_emails_ticket_status.php:66 ..
+#: /options/cjsupport_emails_ticket_status.php:116 ..
+#: /options/cjsupport_emails_ticket_transfer.php:56 ..
+#: /options/cjsupport_emails_update_comment.php:56
+msgid "Subject for Client"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_comment.php:66 ..
+#: /options/cjsupport_emails_new_ticket.php:66 ..
+#: /options/cjsupport_emails_ticket_status.php:76 ..
+#: /options/cjsupport_emails_ticket_status.php:126 ..
+#: /options/cjsupport_emails_ticket_transfer.php:66 ..
+#: /options/cjsupport_emails_update_comment.php:66
+msgid "Message for Client"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_faq.php:20
+msgid "New FAQ Email Message"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_faq.php:26
+msgid "Send notification email to"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_faq.php:40
+msgid ""
+"<p>Following email will be sent to administrator when a new FAQ is created "
+"by an agent.</p>"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_faq.php:46 ..
+#: /options/cjsupport_emails_unattended.php:56
+msgid "Subject for Admin"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_faq.php:56 ..
+#: /options/cjsupport_emails_unattended.php:66
+msgid "Message for Admin"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_ticket.php:20
+msgid "New Ticket Email Messages"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_ticket.php:30
+msgid ""
+"<p>Following emails will be sent to the agent and client when a new ticket "
+"is created by the client.</p>"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_user.php:20
+msgid "New User Email Message"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_user.php:30
+msgid ""
+"<p>When a new customer sends an email to IMAP mailbox, a new user account is "
+"created if system does not found the email in users table. This messsage "
+"will be sent to new user with his account details.</p>"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_user.php:36
+msgid "Email Subject"
+msgstr ""
+
+#: ../options/cjsupport_emails_new_user.php:47
+msgid "Email Message"
+msgstr ""
+
+#: ../options/cjsupport_emails_ticket_status.php:20
+msgid "Ticket Status Change Email Messages"
+msgstr ""
+
+#: ../options/cjsupport_emails_ticket_status.php:30 ..
+#: /options/cjsupport_emails_update_comment.php:30
+msgid ""
+"<p>Following emails will be sent to the agent and client when a comment is "
+"updated on a ticket.</p>"
+msgstr ""
+
+#: ../options/cjsupport_emails_ticket_status.php:40
+msgid "When ticket is closed"
+msgstr ""
+
+#: ../options/cjsupport_emails_ticket_status.php:90
+msgid "When ticket is re-opened"
+msgstr ""
+
+#: ../options/cjsupport_emails_ticket_transfer.php:20
+msgid "Ticket Transferred Email Messages"
+msgstr ""
+
+#: ../options/cjsupport_emails_ticket_transfer.php:30
+msgid ""
+"<p>Following emails will be sent to the agent and client when a ticket is "
+"transfered to another department.</p>"
+msgstr ""
+
+#: ../options/cjsupport_emails_unattended.php:20
+msgid "Unattended Ticket Notifications"
+msgstr ""
+
+#: ../options/cjsupport_emails_unattended.php:30
+msgid ""
+"<p>Following emails will be sent to the agent and admin based on maximum "
+"response time specified.</p>"
+msgstr ""
+
+#: ../options/cjsupport_emails_update_comment.php:20
+msgid "Update Comment Email Messages"
+msgstr ""
+
+#: ../options/cjsupport_emails_variables.php:55
+msgid "You can use below variables in your email messages"
+msgstr ""
+
+#: ../options/cjsupport_emails_variables.php:61
+msgid "Variables"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:14
+msgid "<span class=\"red\">Please specify your Envato Username and API Key.</span>"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:17 ../options/cjsupport_envato.php:34
+msgid "Import Envato Products"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:28
+msgid "Envato Integration"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:35
+msgid ""
+"If you choose yes, all your envato products will be synced with support "
+"products"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:44
+msgid "Envato Username <span class=\"red\">(required)</span>"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:45
+msgid "Specify your envato username"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:54
+msgid "Envato API Key <span class=\"red\">(required)</span>"
+msgstr ""
+
+#: ../options/cjsupport_envato.php:55
+msgid ""
+"<p>Specify your envato API Key.</p>You can find your Envato API Key by "
+"visiting your Account page then clicking the My Settings tab, <br>At the "
+"bottom of the page you will find your account API keys and a button to "
+"regenerate new as needed."
+msgstr ""
+
+#: ../options/cjsupport_envato.php:78
+msgid "Manual Sync"
+msgstr ""
+
+#: ../options/cjsupport_form_builder.php:21
+msgid "Please select a field type"
+msgstr ""
+
+#: ../options/cjsupport_form_builder.php:22
+msgid "Single Line Text"
+msgstr ""
+
+#: ../options/cjsupport_form_builder.php:23
+msgid "Multiline Line Text"
+msgstr ""
+
+#: ../options/cjsupport_form_builder.php:25
+msgid "Multiple Dropdown"
+msgstr ""
+
+#: ../options/cjsupport_form_builder.php:28
+msgid "Date"
+msgstr ""
+
+#: ../options/cjsupport_form_builder.php:29
+msgid "Email"
+msgstr ""
+
+#: ../options/cjsupport_form_builder.php:30
+msgid "Url"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:14 ../options/email-piping/add-route.php:
+#: 14 ../options/email-piping/edit-route.php:14
+msgid "All departments"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:21 ../options/email-piping/add-route.php:
+#: 21 ../options/email-piping/edit-route.php:21
+msgid "All products"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:67
+msgid "Staff Members"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:68
+msgid "&leftarrow; Go back"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:70
+msgid "Quick Search"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:77
+msgid "Staff Member"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:88
+msgid "Never"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:129 ../options/custom-fields/fields-list.
+#: php:49
+msgid "Update"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:138
+msgid "Fallback Support Staff"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:147 ../options/custom-fields/fields-list.
+#: php:56
+msgid "--"
+msgstr ""
+
+#: ../options/cjsupport_manage_staff.php:157
+msgid "No staff members found."
+msgstr ""
+
+#: ../options/cjsupport_woocommerce.php:16
+msgid "No products found in Woocommerce."
+msgstr ""
+
+#: ../options/cjsupport_woocommerce.php:19
+msgid "Woocommerce is not active on this website."
+msgstr ""
+
+#: ../options/cjsupport_woocommerce.php:36
+msgid "Woocommerce Integration"
+msgstr ""
+
+#: ../options/cjsupport_woocommerce.php:42
+msgid "Import Woocommerce Products"
+msgstr ""
+
+#: ../options/cjsupport_woocommerce.php:43
+msgid ""
+"If you choose yes, all your woocommerce products will be synced with support "
+"products"
+msgstr ""
+
+#: ../options/cjsupport_woocommerce.php:52
+msgid "Exclude products"
+msgstr ""
+
+#: ../options/cjsupport_woocommerce.php:53
+msgid ""
+"You can select Woocommerce products, you do not want to be synced with "
+"support app."
+msgstr ""
+
+#: ../options/plugin_addon_options.php:5
+msgid "Facebook"
+msgstr ""
+
+#: ../options/plugin_addon_options.php:6
+msgid "Twitter"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:20 ../options/custom-fields/fields-
+#: edit.php:26
+msgid "You must specify options for this field."
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:25 ../options/custom-fields/fields-
+#: edit.php:31
+msgid "Field with same unique id already exists."
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:60 ../options/custom-fields/fields-
+#: list.php:22
+msgid "Add New Field"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:66 ../options/custom-fields/fields-
+#: edit.php:72
+#, php-format
+msgid "Field Type %s"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:76 ../options/custom-fields/fields-
+#: edit.php:83
+#, php-format
+msgid "Unique ID %s"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:77 ../options/custom-fields/fields-
+#: edit.php:84
+msgid "Must not use spaces or any special character other than underscores."
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:87 ../options/custom-fields/fields-
+#: edit.php:94
+#, php-format
+msgid "Field Label %s"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:98 ../options/custom-fields/fields-
+#: edit.php:105
+msgid "Field Description"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:108 ../options/custom-
+#: fields/fields-edit.php:115
+msgid "Field Options"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:109 ../options/custom-
+#: fields/fields-edit.php:116
+msgid ""
+"Specify each option per line.<br><span class=\"red italic\">Required in case "
+"of dropdown, checkbox, radio buttons.</span>"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:111 ../options/custom-
+#: fields/fields-edit.php:118
+msgid ""
+"Option One\n"
+"Option Two\n"
+"and so on.."
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:119 ../options/custom-
+#: fields/fields-edit.php:126
+msgid "Sort Order"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:140
+msgid "Add Field"
+msgstr ""
+
+#: ../options/custom-fields/fields-add-new.php:142 ../options/custom-
+#: fields/fields-edit.php:149
+#, php-format
+msgid "<a href=\"%s\" class=\"button-secondary margin-10-left\">Cancel</a>"
+msgstr ""
+
+#: ../options/custom-fields/fields-edit.php:66 ../options/custom-fields/fields-
+#: edit.php:147
+msgid "Edit Field"
+msgstr ""
+
+#: ../options/custom-fields/fields-list.php:24
+msgid "Create Ticket Form (Additional Fields)"
+msgstr ""
+
+#: ../options/custom-fields/fields-list.php:28
+msgid "Field Type"
+msgstr ""
+
+#: ../options/custom-fields/fields-list.php:29 ..
+#: /templates/partials/includes/canned-responses.php:21
+msgid "Unique Name"
+msgstr ""
+
+#: ../options/custom-fields/fields-list.php:30
+msgid "Label"
+msgstr ""
+
+#: ../options/custom-fields/fields-list.php:34
+msgid "Order"
+msgstr ""
+
+#: ../options/custom-fields/fields-list.php:40
+msgid "No additional fields found."
+msgstr ""
+
+#: ../options/custom-fields/fields-list.php:62
+msgid "Update fields"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:35 ../options/email-piping/edit-route.
+#: php:34
+msgid "Invalid email address."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:40 ../options/email-piping/edit-route.
+#: php:39
+msgid "Mailbox email should not be used for any user account on this website."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:44 ../options/email-piping/edit-route.
+#: php:43
+msgid "Password field is missing."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:48 ../options/email-piping/edit-route.
+#: php:47
+msgid "Server field is missing."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:52 ../options/email-piping/edit-route.
+#: php:51
+msgid "Server port field is missing."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:56 ../options/email-piping/edit-route.
+#: php:55
+msgid "Please assign departments for this route."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:60 ../options/email-piping/edit-route.
+#: php:66
+msgid "Please assign products for this route."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:66 ../options/email-piping/edit-route.
+#: php:60
+msgid "Selected department is already assigned to another mailbox."
+msgstr ""
+
+#: ../options/email-piping/add-route.php:80
+#, php-format
+msgid ""
+"Could not connect to IMAP server, please check and try again. <p>%s</p> "
+"<p>%s</p>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:136
+msgid "Add new email (IMAP configuration)"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:142 ../options/email-piping/edit-route.
+#: php:132
+msgid "Email address <span class=\"red\">*</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:143 ../options/email-piping/edit-route.
+#: php:133
+msgid ""
+"<p>Specify email address.</p> <span class=\"red\">NOTE: All unseen emails to "
+"this email address will be processed as tickets or comments. <br> If you are "
+"using an existing email address, please make sure the inbox is empty "
+"otherwise existing emails will also be converted to new tickets.</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:152 ../options/email-piping/edit-route.
+#: php:142
+msgid "Password <span class=\"red\">*</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:153 ../options/email-piping/edit-route.
+#: php:143
+msgid "Please enter your email password"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:162 ../options/email-piping/edit-route.
+#: php:152
+msgid "Incoming server name <span class=\"red\">*</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:163 ../options/email-piping/edit-route.
+#: php:153
+msgid "Please specify imap incoming server name. e.g. imap.gmail.com"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:172 ../options/email-piping/edit-route.
+#: php:162
+msgid "Incoming server port <span class=\"red\">*</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:173 ../options/email-piping/edit-route.
+#: php:163
+msgid "Please specify imap incoming server port for SSL/TLS. e.g. 993"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:182 ../options/email-piping/edit-route.
+#: php:172
+msgid "Enable SSL/TLS <span class=\"red\">*</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:192 ../options/email-piping/edit-route.
+#: php:182
+msgid "Department <span class=\"red\">*</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:202 ../options/email-piping/edit-route.
+#: php:192
+msgid "Products <span class=\"red\">*</span>"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:212
+msgid "Test Connection & Save"
+msgstr ""
+
+#: ../options/email-piping/add-route.php:214 ../options/email-piping/edit-route.
+#: php:204
+msgid "Go Back"
+msgstr ""
+
+#: ../options/email-piping/edit-route.php:75
+msgid "Could not connect to IMAP server, please check and try again."
+msgstr ""
+
+#: ../options/email-piping/edit-route.php:108
+msgid "Connection to IMAP server was established and route is saved successfully."
+msgstr ""
+
+#: ../options/email-piping/edit-route.php:126
+msgid "Edit Route (IMAP configuration)"
+msgstr ""
+
+#: ../options/email-piping/edit-route.php:202
+msgid "Test Connection & Update"
+msgstr ""
+
+#: ../options/email-piping/mailboxes.php:7
+msgid "Email Routes"
+msgstr ""
+
+#: ../options/email-piping/mailboxes.php:8
+msgid "Add new route"
+msgstr ""
+
+#: ../options/email-piping/mailboxes.php:13
+msgid "Email Address"
+msgstr ""
+
+#: ../options/email-piping/mailboxes.php:14
+msgid "IMAP Server"
+msgstr ""
+
+#: ../options/email-piping/mailboxes.php:23
+msgid "No routes found, please create a new route."
+msgstr ""
+
+#: ../templates/app.php:160 ../templates/app.php:203
+msgid "Logout"
+msgstr ""
+
+#: ../templates/partials/includes/canned-responses.php:10
+msgid "Search.."
+msgstr ""
+
+#: ../templates/partials/includes/canned-responses.php:19
+msgid "Enter a name and content to save new canned response."
+msgstr ""
+
+#: ../templates/partials/includes/canned-responses.php:24
+msgid "Content to add"
+msgstr ""
+
+#: ../templates/partials/includes/canned-responses.php:27
+msgid "Add New Response"
+msgstr ""
+
+#: ../templates/partials/includes/canned-responses.php:43
+msgid "Insert Response"
+msgstr ""
